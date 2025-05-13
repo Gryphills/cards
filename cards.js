@@ -57,3 +57,5 @@ const starburst = {
   video: 'https://syncsketch.com/sketch/NDcyNzJmZDVm/#/29008830/30145593',
   rexLink: 'https://rexalia.world/rex/1513'
 }
+
+document.getElementById('all-logs').innerHTML = `<p> testing bc idk what is up rn </p>`;
