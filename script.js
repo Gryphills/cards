@@ -259,65 +259,6 @@ function buttonFunctions() {
 
 
 
-
-const coac = {
-  title: "coacChaos",
-  sectionLog: [ [ 'Overall Bonuses', 'pAndE', 'bgSimple' ],
-  [ '21-36', 'halfBody', 'animationPrinciples', 'shading' ],
-  [ '36-55', 'fullBody', 'animationPrinciples', 'shading' ],
-  [ '55-79', 'fullBody', 'animationPrinciples', 'shading' ],
-  [ '85-95', 'fullBody', 'animationPrinciples', 'shading' ],
-  [ '95-101', 'fullBody', 'animationPrinciples', 'shading' ],
-  [ '107-113',  'fullBody',  'animationPrinciples', 'shading',  'magic' ],
-  ['113-121',    'halfBody',    'animationPrinciples',    'shading',    'magic',]],
-    importLink: "link",
-    videoLink: "vid",
-    thumbnail: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/66d32d06-14be-4636-b25f-95141f65a139/dhbf9qs-5e656881-b711-49bf-96ef-bfdc35bc2de4.jpg/v1/fill/w_1192,h_670,q_70,strp/the_stag___animation_by_gryphonillustrations_dhbf9qs-pre.jpg"
-}
-
-const coac2 = {
-  title: "coacChaos Scene 2",
-  sectionLog: [ [ 'Overall Bonuses', 'pAndE', 'bgSimple' ],
-  [ '131-135',     'halfBody',    'animationPrinciples',    'shading',    'magic' ],
-  [ '135-145',    'fullBody',    'animationPrinciples',    'shading',    'magic' ],
-  [ '145-161',    'fullBody',    'animationPrinciples',    'shading',    'magic' ],
-  [ '161-179', 'fullBody', 'animationPrinciples', 'shading' ] ]
-
-}
-
-const astra = {
-  title: "Astra-talking",
-  sectionLog: [ [ 'move-1',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ],
-  [ 'move-2','halfBody','animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ],
-  [ 'move-3',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ],
-  [ 'move-4',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ] ,
-  ['movement-5', 'halfBody', 'animationPrinciples', 'traditionalh', 'offsetDetails', 'jewellery']]
-}
-
-const sirius = {
-  title: "Sirius Squats",
-  sectionLog: [  [ 'x-x', 'fullBody']
-  ]
-}
-
-const starburst = {
-  title: "FightyStar",
-  sectionLog: [['Overall Bonuses', 'abstract'], ['1-1', 'halfBody', 'animationPrinciples', 'accessories', 'magic', 'shading'], 
-  ['2-2', 'halfBody', 'animationPrinciples', 'offsetDetails', 'accessories', 'magic', 'shading']],
-  thumbnail: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dh6lsa9-66008e5e-bab1-44a0-8572-51a39d11bee9.gif/v1/fill/w_889,h_500,q_85,strp/you_sure_you_want_a_fight____animation_by_gryphonillustrations_dh6lsa9-250t-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGg2bHNhOS02NjAwOGU1ZS1iYWIxLTQ0YTAtODU3Mi01MWEzOWQxMWJlZTkuZ2lmIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.y3BvMU0a4sG9JqsPrE3_5iQG9r85NRGUnoFHgdzjcXU",
-  videoLink: `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dh6lsa9-66008e5e-bab1-44a0-8572-51a39d11bee9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGg2bHNhOS02NjAwOGU1ZS1iYWIxLTQ0YTAtODU3Mi01MWEzOWQxMWJlZTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ARIXJQm3imbryR_wMQAUvU-tJqlVU-rzwk-i-yzDRio`
-}
-
-mpLogObj(bkanim)
-mpLogObj(sharkSave)
-mpLog(minecraftRun.title, 'link', 'link', minecraftRun.sectionLog, 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dienj69-30c11ebb-d063-4c1c-8c7f-8541f95493e9.png/v1/fill/w_894,h_894/aspen_grove_gloom_by_gryphonillustrations_dienj69-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAwMCIsInBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGllbmo2OS0zMGMxMWViYi1kMDYzLTRjMWMtOGM3Zi04NTQxZjk1NDkzZTkucG5nIiwid2lkdGgiOiI8PTMwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qC7EDow058ofDTuUvc5_hqVLby8IhtokPWhdgmPFTII')
-
-mpLog(coac.title, coac.importLink, coac.videoLink, coac.sectionLog, coac.thumbnail)
-mpLog(starburst.title, "linky", "linke", starburst.sectionLog, starburst.thumbnail)
-mpLog(astra.title, 'rex', 'bideo', astra.sectionLog, 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dienj69-30c11ebb-d063-4c1c-8c7f-8541f95493e9.png/v1/fill/w_894,h_894/aspen_grove_gloom_by_gryphonillustrations_dienj69-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAwMCIsInBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGllbmo2OS0zMGMxMWViYi1kMDYzLTRjMWMtOGM3Zi04NTQxZjk1NDkzZTkucG5nIiwid2lkdGgiOiI8PTMwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qC7EDow058ofDTuUvc5_hqVLby8IhtokPWhdgmPFTII')
-
-mpLog(flowerCrown.title, flowerCrown.rex, flowerCrown.video, flowerCrown.sectionLog, flowerCrown.thumbnail)
-mpLog(sirius.title, 'link', 'link', sirius.sectionLog, 'chrome://branding/content/about-logo.png')
 mpLogObj(scipiosLook)
 
 start();
