@@ -108,7 +108,7 @@ const astra = {
   ]
 }
 
-const sirius = {
+const siirius = {
   title: "Sirius Squats",
   sectionLog: [  [ 'x-x', 'fullBody']
   ]
