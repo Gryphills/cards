@@ -80,7 +80,7 @@ const foxJump = {
 const hyllinFight = {
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c1ae54db-959b-4f49-aadc-f682f0d0725e/djqpjr3-5fd09a1f-e4a4-4917-b201-97e4442f9136.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MxYWU1NGRiLTk1OWItNGY0OS1hYWRjLWY2ODJmMGQwNzI1ZVwvZGpxcGpyMy01ZmQwOWExZi1lNGE0LTQ5MTctYjIwMS05N2U0NDQyZjkxMzYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.03TPhmYUu60drWHjw0j4devwE88M8tTYj4OVQDbOGP4',
   title: "Fight!!!",
-  video: 'l',
+  video: 'https://syncsketch.com/sketch/bRzx5js8hp1q/#/34515659/35947832',
   rexLink: 'l',
   sectionLog: [
     ['Overall Bonuses', 'pAndE', 'bgSimple'],
