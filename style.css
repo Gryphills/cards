@@ -1,3 +1,70 @@
+.all-logs {
+   display: flex;
+   flex-direction: row;
+   align-items: start;
+   flex-wrap: wrap;
+   }
+
 .column {
-  background-color: gray;
+  float:right;
+  width:20%;
+  background-color:grey;
+}
+.inputbox {
+  width:40px;
+}
+.subtotal {
+  background-color: rgb(168,160,148);
+  text-align: center;
+  text-indent: 50%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 95%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:12px
+}
+.total {
+  background-color: rgb(138,131,120);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:19px;
+}
+.mpLog {
+  background-color: rgb(199,191,178);
+  width: 350px;
+  text-align: center;
+  margin: 5px;
+}
+.titlestuff {
+  text-align: center;
+  background-color: rgb(138,131,120);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size:18px;
+}
+.inputrows {
+  text-indent: 4%;
+  background-color: rgb(249,240,225);
+  width: 95%;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.image {
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.sectionstart {
+  text-align: center;
+  margin-top:10px;
 }
