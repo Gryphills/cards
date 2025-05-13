@@ -1,3 +1,9 @@
+const siriuss = {
+  title: "Sirius Squats",
+  sectionLog: [  [ 'x-x', 'fullBody']
+  ]
+}
+
 
 const bonusesObject = {
 
@@ -202,7 +208,7 @@ function buttonFunctions() {
 
 
 
-mpLogObj(scipiosLook)
+mpLogObj(siriuss)
 
 start();
 
