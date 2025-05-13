@@ -209,6 +209,7 @@ function buttonFunctions() {
 
 
 mpLogObj(siriuss)
+mpLogObj(hyllinFight)
 
 start();
 
