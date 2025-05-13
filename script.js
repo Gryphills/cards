@@ -207,9 +207,26 @@ function buttonFunctions() {
 }
 
 
-
+//full-body:
 mpLogObj(siriuss)
+mpLogObj(minecraftRun)
+
 mpLogObj(hyllinFight)
+mpLogObj(scipiosLook)
+mpLogObj(selkieSwim)
+mpLogObj(foxJump)
+
+mpLogObj(coac)
+mpLogObj(coac2)
+
+//half-body:
+mpLogObj(flowerCrown)
+mpLogObj(astra)
+mpLogObj(starburst)
+
+//partialbody:
+
+//slight bonuses:
 
 start();
 
