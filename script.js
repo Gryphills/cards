@@ -98,7 +98,7 @@ function writeBonuses(bonusName, bonusAmount) { //private/protected
   let allBonusInstances = document.getElementsByClassName(bonusName);
   for (let i=0; i<allBonusInstances.length; i++) {
     let item = allBonusInstances.item(i);
-    if (bonusName.includes('animationPrinciples' ||'offsetDetails'||'trad3'||'shading'||'traditional')) {
+    if (multiplied.includes(bonusName.substring(0, bonusName.length - 1))) {
       bonusName = bonusName.substring(0, bonusName.length - 1);
       item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" +  bonusesObject[bonusName][1] + "(" + bonusesObject[bonusName][0] + "x Body Sections bonus) <br>"
     } else {
