@@ -6,7 +6,7 @@ const scipiosLook = {
   thumbnail: 'https://cdn.discordapp.com/attachments/1195987621218898040/1371964056298323968/scipio-0019.png?ex=68250c98&is=6823bb18&hm=0dcd37eba9d81fd008f69ebe7dea51598557cf179780bb027187614f34156fff&',
   sectionLog: [
     ['Overall Bonuses', 'abstract'],
-    ['5-19', 'fullBody', 'animationPrinciples', 'offsetDetails', 'traditionalf'] //7 drawings w 6 sections body - 84 minimum mp
+    ['5-19', 'fullBody', 'animationPrinciplesf', 'offsetDetailsf', 'traditionalf'] //7 drawings w 6 sections body - 84 minimum mp
   ]
 }
 
@@ -27,16 +27,16 @@ const tritTrot = {
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dh334u7-60a4bd21-69b4-489f-9163-28fe8e2984f7.gif/v1/fill/w_622,h_350,q_85,strp/trit_trottin__along___animation_by_gryphonillustrations_dh334u7-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGgzMzR1Ny02MGE0YmQyMS02OWI0LTQ4OWYtOTE2My0yOGZlOGUyOTg0ZjcuZ2lmIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.DyxIj7r-18_wPTQHrlalKGB6dJAwcJ9oxMbFfbwk3dU',
   sectionLog: [
     ['Overall Bonuses', 'pAndE', 'bgSimple'],
-    ['1-11', 'fullBody', 'animationPrinciples', 'traditionalf', 'shading', 'magic'],
-    ['11-22', 'fullBody', 'animationPrinciples', 'traditionalf', 'shading', 'magic']
+    ['1-11', 'fullBody', 'animationPrinciplesf', 'traditionalf', 'shadingf', 'magic'],
+    ['11-22', 'fullBody', 'animationPrinciplesf', 'traditionalf', 'shadingf', 'magic']
   ]
 }
 
 const minecraftRun = {
   title: 'Minecraft Running',
   sectionLog: [
-    ['frames 1-5', 'fullBody', 'animationPrinciples'],
-    ['frames 5-10', 'fullBody', 'animationPrinciples']
+    ['frames 1-5', 'fullBody', 'animationPrinciplesf'],
+    ['frames 5-10', 'fullBody', 'animationPrinciplesf']
   ],
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrbmkz-fe214b7d-e8a7-4b39-9182-25fd61b9b659.png/v1/fill/w_1206,h_663,q_70,strp/minecraftrunthumb_by_gryphonillustrations_djrbmkz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzA0IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJibWt6LWZlMjE0YjdkLWU4YTctNGIzOS05MTgyLTI1ZmQ2MWI5YjY1OS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.nah964bFlqUchbMva-A3wVqncC_r6yccqLM1Dru2j7o'
 }
@@ -49,8 +49,8 @@ const selkieSwim = {
   rexLink: 'https://rexalia.world/rex/28',
   sectionLog: [
     ['Overall Bonuses', 'pAndE', 'bgComplex'],
-    ['9-21', 'fullBody', 'offsetDetails', 'animationPrinciples', 'traditionalf', 'shading', 'magic'],
-    ['21-36', 'fullBody', 'offsetDetails', 'animationPrinciples', 'traditionalf', 'shading', 'magic']
+    ['9-21', 'fullBody', 'offsetDetailsf', 'animationPrinciplesf', 'traditionalf', 'shadingf', 'magic'],
+    ['21-36', 'fullBody', 'offsetDetailsf', 'animationPrinciplesf', 'traditionalf', 'shadingf', 'magic']
   ]
 }
 
@@ -58,9 +58,9 @@ const flowerCrown = {
   title: "Flower Crown Fun",
   sectionLog: [
     ['Overall Bonuses', 'pAndE'],
-    ['1-2', 'partialBody', 'animationPrinciples', 'accessories', 'shading'],
-    ['2-3', 'halfBody', 'animationPrinciples', 'accessories', 'shading'],
-    ['3-4', 'halfBody', 'animationPrinciples', 'accessories', 'shading']
+    ['1-2', 'partialBody', 'animationPrinciplesf', 'accessories', 'shadingf'],
+    ['2-3', 'halfBody', 'animationPrinciplesf', 'accessories', 'shadingf'],
+    ['3-4', 'halfBody', 'animationPrinciplesf', 'accessories', 'shadingf']
   ],
   rexLink: 'https://rexalia.world/rex/1843',
   video: 'https://wixmp-ed30a86b8c4ca887773594c2.wixmp.com/v/mp4/66d32d06-14be-4636-b25f-95141f65a139/dho6i92-9d585a31-4e62-43b9-baec-14649c9f38bd.VideoQualities.res_1080p.cd5fdeb1f78a48869f03a16a4e08afb7.mp4',
@@ -76,10 +76,10 @@ const foxJump = {
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrbo5x-745cb5ae-dacd-4e11-922a-863966b4ccd2.png/v1/fill/w_1095,h_730,q_70,strp/final_0001_by_gryphonillustrations_djrbo5x-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJibzV4LTc0NWNiNWFlLWRhY2QtNGUxMS05MjJhLTg2Mzk2NmI0Y2NkMi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.BpQq2fZB8MyBbZSL7qDxuP8I6SeKeDlpH9kkUiz5KOE',
   sectionLog: [
     ['Overall Bonuses', 'abstract'],
-    ['21-31', 'fullBody', 'animationPrinciples', 'offsetDetails', 'traditionalf'],
-    ['31-41', 'fullBody', 'animationPrinciples',  'traditionalf'],
-    ['41-53', 'fullBody', 'animationPrinciples',  'traditionalf'],
-    ['55-69', 'fullBody', 'animationPrinciples', 'traditionalf'],
+    ['21-31', 'fullBody', 'animationPrinciplesf', 'trad3f', 'traditionalf'],
+    ['31-41', 'fullBody', 'animationPrinciplesf',  'traditionalf'],
+    ['41-53', 'fullBody', 'animationPrinciplesf',  'traditionalf'],
+    ['55-69', 'fullBody', 'animationPrinciplesf', 'traditionalf'],
   ]
 }
 
@@ -90,8 +90,8 @@ const hyllinFight = {
   rexLink: 'l',
   sectionLog: [
     ['Overall Bonuses', 'pAndE', 'bgSimple'],
-    ['1-3', 'fullBody', 'animationPrinciples', 'shading', 'traditionalf', 'magic', 'outfit'],
-    ['3-5', 'fullBody', 'animationPrinciples', 'shading', 'traditionalf', 'magic', 'outfit']
+    ['1-3', 'fullBody', 'animationPrinciplesf', 'shadingf', 'traditionalf', 'magic', 'outfit'],
+    ['3-5', 'fullBody', 'animationPrinciplesf', 'shadingf', 'traditionalf', 'magic', 'outfit']
   ],
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c1ae54db-959b-4f49-aadc-f682f0d0725e/djq5q15-45668a4e-4336-46e0-a5bb-5e24cc40d01e.png/v1/fill/w_1081,h_739,q_70,strp/timeline_1_0005_by_hyllin_djq5q15-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODc2IiwicGF0aCI6IlwvZlwvYzFhZTU0ZGItOTU5Yi00ZjQ5LWFhZGMtZjY4MmYwZDA3MjVlXC9kanE1cTE1LTQ1NjY4YTRlLTQzMzYtNDZlMC1hNWJiLTVlMjRjYzQwZDAxZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.z8IhFd7quLZKDJ7_zgUrdvQSSWYuDhS6OgRFzp0-kIc'
 
@@ -104,13 +104,13 @@ const astra = {
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrbj74-29613e91-1234-43b7-8dc3-1ea23700667c.png/v1/fill/w_1163,h_654,q_80,strp/astrapreview_by_gryphonillustrations_djrbj74-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU0IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJiajc0LTI5NjEzZTkxLTEyMzQtNDNiNy04ZGMzLTFlYTIzNzAwNjY3Yy5wbmciLCJ3aWR0aCI6Ijw9MTE2MyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.H85YzdgT84EC4wAIqv8bXh1_FtkoemoZT6qN2K1kdfE',
   rexLink: 'https://rexalia.world/rex/2657',
   gif: 'nope',
-  sectionLog: [ [ '1-13',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ],
-  ['13-29','halfBody','animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ],
-  ['29-39',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ],
-  ['39-51',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ] ,
-  ['51-59',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ] ,
-  ['59-69',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery'],
-  ['59-87',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery']
+  sectionLog: [ [ '1-13',  'halfBody',  'animationPrinciplesh',  'traditionalh',  'offsetDetailsh',  'jewellery' ],
+  ['13-29','halfBody','animationPrinciplesh',  'traditionalh',  'offsetDetailsh',  'jewellery' ],
+  ['29-39',  'halfBody',  'animationPrinciplesh',  'traditionalh',  'offsetDetailsh',  'jewellery' ],
+  ['39-51',  'halfBody',  'animationPrinciplesh',  'traditionalh',  'offsetDetailsh',  'jewellery' ] ,
+  ['51-59',  'halfBody',  'animationPrinciplesh',  'traditionalh',  'offsetDetailsh',  'jewellery' ] ,
+  ['59-69',  'halfBody',  'animationPrinciplesh',  'traditionalh',  'offsetDetailsh',  'jewellery'],
+  ['59-87',  'halfBody',  'animationPrinciplesh',  'traditionalh',  'offsetDetailsh',  'jewellery']
   ]
 }
 
@@ -126,8 +126,8 @@ const starburst = {
   title: "FightyStar",
   sectionLog: [
     ['Overall Bonuses', 'abstract'], 
-  ['15-31', 'halfBody', 'animationPrinciples', 'accessories', 'magic', 'shading'], 
-  ['39-59', 'halfBody', 'animationPrinciples', 'traditionalh', 'accessories', 'magic', 'shading']],
+  ['15-31', 'halfBody', 'animationPrinciplesh', 'accessories', 'magic', 'shadingh'], 
+  ['39-59', 'halfBody', 'animationPrinciplesh', 'traditionalh', 'accessories', 'magic', 'shadingh']],
   thumbnail: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dh6lsa9-66008e5e-bab1-44a0-8572-51a39d11bee9.gif/v1/fill/w_622,h_350,q_85,strp/you_sure_you_want_a_fight____animation_by_gryphonillustrations_dh6lsa9-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGg2bHNhOS02NjAwOGU1ZS1iYWIxLTQ0YTAtODU3Mi01MWEzOWQxMWJlZTkuZ2lmIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.y3BvMU0a4sG9JqsPrE3_5iQG9r85NRGUnoFHgdzjcXU",
   gif: `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dh6lsa9-66008e5e-bab1-44a0-8572-51a39d11bee9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGg2bHNhOS02NjAwOGU1ZS1iYWIxLTQ0YTAtODU3Mi01MWEzOWQxMWJlZTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ARIXJQm3imbryR_wMQAUvU-tJqlVU-rzwk-i-yzDRio`,
   video: 'https://syncsketch.com/sketch/NDcyNzJmZDVm/#/29008830/30145593',
@@ -137,13 +137,13 @@ const starburst = {
 const coac = {
   title: "coacChaos",
   sectionLog: [ [ 'Overall Bonuses', 'pAndE', 'bgSimple' ],
-  [ '21-36', 'halfBody', 'animationPrinciples', 'shading' ],
-  [ '36-55', 'fullBody', 'animationPrinciples', 'shading' ],
-  [ '55-79', 'fullBody', 'animationPrinciples', 'shading' ],
-  [ '85-95', 'fullBody', 'animationPrinciples', 'shading' ],
-  [ '95-101', 'fullBody', 'animationPrinciples', 'shading' ],
-  [ '107-113',  'fullBody',  'animationPrinciples', 'shading',  'magic' ],
-  ['113-121',    'halfBody',    'animationPrinciples',    'shading',    'magic',]],
+  [ '21-36', 'halfBody', 'animationPrinciplesh', 'shadingh' ],
+  [ '36-55', 'fullBody', 'animationPrinciplesf', 'shadingf' ],
+  [ '55-79', 'fullBody', 'animationPrinciplesf', 'shadingf' ],
+  [ '85-95', 'fullBody', 'animationPrinciplesf', 'shadingf' ],
+  [ '95-101', 'fullBody', 'animationPrinciplesf', 'shadingf' ],
+  [ '107-113',  'fullBody',  'animationPrinciplesf', 'shadingf',  'magic' ],
+  ['113-121',    'halfBody',    'animationPrinciplesh',    'shadingh',    'magic',]],
     importLink: "link",
     videoLink: "vid",
     thumbnail: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/66d32d06-14be-4636-b25f-95141f65a139/dhbf9qs-5e656881-b711-49bf-96ef-bfdc35bc2de4.jpg/v1/fill/w_1192,h_670,q_70,strp/the_stag___animation_by_gryphonillustrations_dhbf9qs-pre.jpg"
@@ -152,10 +152,10 @@ const coac = {
 const coac2 = {
   title: "coacChaos Scene 2",
   sectionLog: [ [ 'Overall Bonuses', 'pAndE', 'bgSimple' ],
-  [ '131-135',     'halfBody',    'animationPrinciples',    'shading',    'magic' ],
-  [ '135-145',    'fullBody',    'animationPrinciples',    'shading',    'magic' ],
-  [ '145-161',    'fullBody',    'animationPrinciples',    'shading',    'magic' ],
-  [ '161-179', 'fullBody', 'animationPrinciples', 'shading' ] ]
+  [ '131-135',     'halfBody',    'animationPrinciplesh',    'shadingh',    'magic' ],
+  [ '135-145',    'fullBody',    'animationPrinciplesf',    'shadingf',    'magic' ],
+  [ '145-161',    'fullBody',    'animationPrinciplesf',    'shadingf',    'magic' ],
+  [ '161-179', 'fullBody', 'animationPrinciplesf', 'shadingf' ] ]
 
 }
 
