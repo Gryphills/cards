@@ -68,7 +68,7 @@ function writeMPlogStuff(bonus) { //start it
       if (type == "p") type = "partialBody";
       if (type == "h") type = "halfBody";
       if (type == "f") type = "fullBody";
-      let bonusAmount = (bonusesObject[type][0] * bonusesObject[bonus][0]) - bonusesObject[type][0]
+      let bonusAmount = (bonusesObject[type][0] * bonusesObject[bonus][0])
       console.log(bonus + bodyArray[b])
       writeBonuses(bonus + bodyArray[b], bonusAmount)
     }
@@ -171,8 +171,21 @@ function calculations() {
     for (let j=0; j<group.length; j++) {
       let item = group[j];
      // console.log(item)
+
+      if (multiplied.includes(item.substring(0, item.length - 1))) {
+        let itemName = item.substring(0, item.length - 1)
+        let type = item.charAt(item.length - 1);
+        if (type == "p") type = "partialBody";
+        if (type == "h") type = "halfBody";
+        if (type == "f") type = "fullBody";
+
+        let bonusAmount = (bonusesObject[type][0] * bonusesObject[itemName][0]) - bonusesObject[type][0]
+        calculated += bonusAmount;
+        //console.log('trad bonuse: ' + bonusAmount)
+        currentSubtotal.innerHTML = `<i>Subtotal: ${calculated} MP</i>`
+      }
       
-      if (item.includes("traditional")) {
+      /*if (item.includes("traditional")) {
         //console.log('TRADITIONAL OK')
         let type = item.charAt(item.length - 1);
         if (type == "p") type = "partialBody";
@@ -184,7 +197,7 @@ function calculations() {
         //console.log('trad bonuse: ' + bonusAmount)
         currentSubtotal.innerHTML = `<i>Subtotal: ${calculated} MP</i>`
     
-      }
+      }*/
       else {
         //console.log(item);
         //console.log(bonusesObject[item])
