@@ -69,7 +69,7 @@ function writeMPlogStuff(bonus) { //start it
       if (type == "h") type = "halfBody";
       if (type == "f") type = "fullBody";
       let bonusAmount = (bonusesObject[type][0] * bonusesObject[bonus][0]) - bonusesObject[type][0]
-
+      console.log(bonus + bodyArray[b])
       writeBonuses(bonus + bodyArray[b], bonusAmount)
     }
   }
@@ -227,6 +227,7 @@ function buttonFunctions() {
     }
   }
 }
+
 
 //fullbodies:
 mpLogObj(scipiosLook)
