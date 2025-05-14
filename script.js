@@ -5,11 +5,11 @@ const bonusesObject = {
   halfBody  : [ 8, "Half Body (3-5 sections)" ],
   fullBody  : [15, "Full Body (6-7 sections)"],
 
-  animationPrinciples  : [1, "Animation Principles"],
+  animationPrinciples  : [2, "Animation Principles"],
   offsetDetails  : [0, "Complex Details"],
-  trad3: [1, "3+ handDrawn frames inbetween keys"],
+  trad3: [2, "3+ handDrawn frames inbetween keys"],
 
-  shading  : [1, "Shaded"],
+  shading  : [0.5, "Shaded"],
   traditional  : [4, "x body - Traditional Bonus"],
 
   magic  : [4, "Magic"],
@@ -98,11 +98,9 @@ function writeBonuses(bonusName, bonusAmount) { //private/protected
   let allBonusInstances = document.getElementsByClassName(bonusName);
   for (let i=0; i<allBonusInstances.length; i++) {
     let item = allBonusInstances.item(i);
-    if (bonusName.includes('traditional')) {
-      bonusName = 'traditional';
-      item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" +  bonusesObject[bonusName][1] + "(x" + bonusesObject[bonusName][0] + " Body bonus) <br>"
-    } else if (bonusName.includes('trad3')) {
-      item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" + bonusesObject[bonusName][1] +  "(x" + bonusesObject[bonusName][0] + " Body bonus) <br>"
+    if (bonusName.includes('animationPrinciples' ||'offsetDetails'||'trad3'||'shading'||'traditional')) {
+      bonusName = bonusName.substring(0, bonusName.length - 1);
+      item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" +  bonusesObject[bonusName][1] + "(" + bonusesObject[bonusName][0] + "x Body Sections bonus) <br>"
     } else {
       item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" + bonusesObject[bonusName][1] + "<br>";
     }
