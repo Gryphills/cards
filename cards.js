@@ -10,7 +10,12 @@ const scipiosLook = {
   ]
 }
 
-
+const ervioWave = {
+  title: 'HellErvio!',
+  sectionLog: [
+    ['1-5', 'partialBody']
+  ]
+}
 
 
 
@@ -32,7 +37,8 @@ const minecraftRun = {
   sectionLog: [
     ['frames 1-5', 'fullBody', 'animationPrinciples'],
     ['frames 5-10', 'fullBody', 'animationPrinciples']
-  ]
+  ],
+  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrbmkz-fe214b7d-e8a7-4b39-9182-25fd61b9b659.png/v1/fill/w_1206,h_663,q_70,strp/minecraftrunthumb_by_gryphonillustrations_djrbmkz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzA0IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJibWt6LWZlMjE0YjdkLWU4YTctNGIzOS05MTgyLTI1ZmQ2MWI5YjY1OS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.nah964bFlqUchbMva-A3wVqncC_r6yccqLM1Dru2j7o'
 }
 
 const selkieSwim = {
@@ -67,7 +73,7 @@ const foxJump = {
   title: 'Snowy Snoot Jump',
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djr4q9l-81060453-72d9-432e-975f-54d6cf20480e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpyNHE5bC04MTA2MDQ1My03MmQ5LTQzMmUtOTc1Zi01NGQ2Y2YyMDQ4MGUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.g4YYP_kZGyB4NQ3gHgGf0l1rhFkIpfsWPQikjuiQ6uU',
   video: 'https://syncsketch.com/sketch/YzU4MGUyM2Fl/#/30691037/31913413',
-  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djr4q9l-81060453-72d9-432e-975f-54d6cf20480e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpyNHE5bC04MTA2MDQ1My03MmQ5LTQzMmUtOTc1Zi01NGQ2Y2YyMDQ4MGUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.g4YYP_kZGyB4NQ3gHgGf0l1rhFkIpfsWPQikjuiQ6uU',
+  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrbo5x-745cb5ae-dacd-4e11-922a-863966b4ccd2.png/v1/fill/w_1095,h_730,q_70,strp/final_0001_by_gryphonillustrations_djrbo5x-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJibzV4LTc0NWNiNWFlLWRhY2QtNGUxMS05MjJhLTg2Mzk2NmI0Y2NkMi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.BpQq2fZB8MyBbZSL7qDxuP8I6SeKeDlpH9kkUiz5KOE',
   sectionLog: [
     ['Overall Bonuses', 'abstract'],
     ['21-31', 'fullBody', 'animationPrinciples', 'offsetDetails', 'traditionalf'],
@@ -95,7 +101,7 @@ const hyllinFight = {
 const astra = {
   title: "Astra-talking",
   video: 'https://syncsketch.com/sketch/c6F7u0YiY5lf/#/34512717/35944540',
-  thumbnail: 'https://media.discordapp.net/attachments/1195987621218898040/1371958755708899409/image.png?ex=682507a9&is=6823b629&hm=e45d50caf33e9c786b70a13b7487c9ec2097b20f8e286c3937e2bcf5bd3a0a6f&=&format=webp&quality=lossless',
+  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrbj74-29613e91-1234-43b7-8dc3-1ea23700667c.png/v1/fill/w_1163,h_654,q_80,strp/astrapreview_by_gryphonillustrations_djrbj74-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU0IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJiajc0LTI5NjEzZTkxLTEyMzQtNDNiNy04ZGMzLTFlYTIzNzAwNjY3Yy5wbmciLCJ3aWR0aCI6Ijw9MTE2MyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.H85YzdgT84EC4wAIqv8bXh1_FtkoemoZT6qN2K1kdfE',
   rexLink: 'https://rexalia.world/rex/2657',
   gif: 'nope',
   sectionLog: [ [ '1-13',  'halfBody',  'animationPrinciples',  'traditionalh',  'offsetDetails',  'jewellery' ],
@@ -108,10 +114,12 @@ const astra = {
   ]
 }
 
-const siirius = {
+const sirius = {
   title: "Sirius Squats",
   sectionLog: [  [ 'x-x', 'fullBody']
-  ]
+  ],
+  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrbjdv-fa751f29-6850-417c-b074-92c0b5c3a4e4.png/v1/fill/w_1161,h_688,q_70,strp/siriuspreview_by_gryphonillustrations_djrbjdv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzA2IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJiamR2LWZhNzUxZjI5LTY4NTAtNDE3Yy1iMDc0LTkyYzBiNWMzYTRlNC5wbmciLCJ3aWR0aCI6Ijw9MTE5MSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZJCVO1UwI2bxhmkKeP92yHbgkOaSlu-sfEZ8LS7WvKQ',
+  gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrbjq9-c88b8c71-f16f-48b5-967f-04b96c7e145e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpyYmpxOS1jODhiOGM3MS1mMTZmLTQ4YjUtOTY3Zi0wNGI5NmM3ZTE0NWUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.q5U5iz0IKNEpsxPevI70kcKqKGAKXncuAnNFgZGx7So'
 }
 
 const starburst = {
