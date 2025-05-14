@@ -5,11 +5,11 @@ const bonusesObject = {
   halfBody  : [ 8, "Half Body (3-5 sections)" ],
   fullBody  : [15, "Full Body (6-7 sections)"],
 
-  animationPrinciples  : [2, "Animation Principles"],
+  animationPrinciples  : [1, "Animation Principles"],
   offsetDetails  : [0, "Complex Details"],
-  trad3: [2, "3+ handDrawn frames inbetween keys"],
+  trad3: [1, "3+ handDrawn frames inbetween keys"],
 
-  shading  : [0.5, "Shaded"],
+  shading  : [1, "Shaded"],
   traditional  : [4, "x body - Traditional Bonus"],
 
   magic  : [4, "Magic"],
