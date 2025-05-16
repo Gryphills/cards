@@ -257,7 +257,7 @@ function mpLogObj(object) {
     object.classTitle = classTitle;
     //console.log(classTitle)
     let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} <br> <a href="${rexlink}"> Rex Import </a> -- <a href="${videolink}"> Video Link</a> </strong> </div> <br>`
-    newLog += `<div class="image" > <img id="image-${classTitle}" src="${thumbnail}" height="150px"> </div> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div> <br>`
+    newLog += `<div class="image" id="image-${classTitle}"> <img onmouseenter="testgif(this)" src="${thumbnail}" height="150px"> </div> <br> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div>`
     newLog += `<div class="cardcontainer" id="cardinfo-${classTitle}" style="display:none"> `
 
     for (let i=0; i<sectionsArray.length; i++) {
@@ -282,9 +282,8 @@ function mpLogObj(object) {
     cardInfoList.push(classTitle);
     cardTitleObj[classTitle] = object;
 
-    let image = document.getElementById(`image-${classTitle}`);
-    image.addEventListener('mouseenter', imageToGif(image));
-    image.addEventListener('mouseleave', gifToImage(image));
+    
+    
 }
 
 
@@ -391,21 +390,34 @@ function buttonFunctions() {
         cardInfo.setAttribute("style", "")
     })
     }
+
+  let image = document.getElementById(`image-${classTitle}`);
+  image.addEventListener('mouseenter', (e) => {
+      imageToGif(e.target)
+    });
+    image.addEventListener('mouseleave', (e) => {
+      gifToImage(e.target)
+  });
+
   }
+}
+
+function testgif(thing) {
+  consol.log("FIRED!!!")
 }
 
 function imageToGif(image) {
   let id = image.getAttribute('id').split('-')[1];
   let cardObj = cardTitleObj[id]
   if (cardObj.gif != undefined) {
-    image.setAttribute('src', cardObj.gif)
+    image.innerHTML = `<img src="${cardObj.gif}" height="150px">`
   }
 }
 function gifToImage(image) {
   let id = image.getAttribute('id').split('-')[1];
   let cardObj = cardTitleObj[id]
   if (cardObj.thumbnail != undefined) {
-    image.setAttribute('src', cardObj.thumbnail)
+    image.innerHTML = `<img src="${cardObj.thumbnail}" height="150px">`
   }
   //image.setAttribute('src', cardObj.thumbnail)
 }
@@ -435,6 +447,4 @@ start();
 calculations();
 
 buttonFunctions();
-
-console.log(`keys: ` + Object.keys(cardTitleObj))
 
