@@ -257,7 +257,7 @@ function mpLogObj(object) {
     object.classTitle = classTitle;
     //console.log(classTitle)
     let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} <br> <a href="${rexlink}"> Rex Import </a> -- <a href="${videolink}"> Video Link</a> </strong> </div> <br>`
-    newLog += `<div class="image" id="image-${classTitle}"> <img onmouseenter="testgif(this)" src="${thumbnail}" height="150px"> </div> <br> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div>`
+    newLog += `<div class="image" id="image-${classTitle}"> <img src="${thumbnail}" height="150px"> </div> <br> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div>`
     newLog += `<div class="cardcontainer" id="cardinfo-${classTitle}" style="display:none"> `
 
     for (let i=0; i<sectionsArray.length; i++) {
@@ -402,9 +402,6 @@ function buttonFunctions() {
   }
 }
 
-function testgif(thing) {
-  consol.log("FIRED!!!")
-}
 
 function imageToGif(image) {
   let id = image.getAttribute('id').split('-')[1];
@@ -447,4 +444,3 @@ start();
 calculations();
 
 buttonFunctions();
-
