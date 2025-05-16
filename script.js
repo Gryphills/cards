@@ -382,7 +382,6 @@ function buttonFunctions() {
     
     if (button != null || cardInfo != null) {
     button.addEventListener("click", (e) => {
-      //console.log("CLICK YEAHHHHH")
       let style = cardInfo.getAttribute("style");
       if (style == "" || style == null) 
         cardInfo.setAttribute("style", "display:none")
@@ -393,6 +392,7 @@ function buttonFunctions() {
 
   let image = document.getElementById(`image-${classTitle}`);
   image.addEventListener('mouseenter', (e) => {
+    console.log(`mouse Enter`);
       imageToGif(e.target)
     });
     image.addEventListener('mouseleave', (e) => {
