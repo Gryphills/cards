@@ -61,12 +61,14 @@ function start () {
       } else {
         bonusHtml += `<input type="radio" name="multiply-${currentBonus}" id="multiplied-${currentBonus}" value="multiplied"> &nbsp; <input type="radio" name="multiply-${currentBonus}" id="flat-${currentBonus}" value="flat" checked> &nbsp;&nbsp; `
       }
+    } else {
+      bonusHtml += `&nbsp;&nbsp;&nbsp;&nbsp;`
     }
     bonusHtml += `<input type="number" id="input-${currentBonus}" class="inputbox"> ${bonusesObject[currentBonus][1]} <br> </div>`
     htmlContainer.innerHTML += bonusHtml;
 
     if (i == 2) {
-      htmlContainer.innerHTML += `<p><strong>Additional Bonuses: </strong> <i> Use radio buttons to change if this bonus is multiplied by the body sections bonus, or if it should be flat</i></p>`
+      htmlContainer.innerHTML += `<p><strong>Additional Bonuses: </strong> <i> Use radio buttons to change if this bonus is multiplied by the body sections bonus, or if it should be flat</i> <br> x &nbsp; _</p>`
     } else if (i==7) {
       htmlContainer.innerHTML += `<p><strong> Flat bonuses:</strong></p>`
     } else if (i == 11) {
@@ -88,6 +90,8 @@ function start () {
   for (let i=0; i<bgStuff.length; i++) {
     writeBonuses(bgStuff[i])
   }
+
+  
 
   document.addEventListener('input', (e) => {
     if ( e.target.type == 'radio' ) {
@@ -231,18 +235,29 @@ const calculatedSubtotals = [];
 const cardInfoList = [];
 
 
-function mpLogObj(object) {
-  mpLog(object.title, object.rexLink, object.video, object.sectionLog, object.thumbnail)
+
+const cardTitleObj = {
+
 }
 
 
-function mpLog(title, rexlink, videolink, sectionsArray, thumbnail) {
+
+function mpLogObj(object) {
+    let title = object.title;
+    let rexlink = object.rexLink
+    let videolink = object.video;
+    let sectionsArray = object.sectionLog;
+    let thumbnail = object.thumbnail;
+    let gif = object.gif;
+
+
     let logContainer = document.getElementById("all-logs");
     let randomNumber = Math.floor(Math.random()*11);
     let classTitle = title.split(" ")[0] + randomNumber;
+    object.classTitle = classTitle;
     //console.log(classTitle)
     let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} <br> <a href="${rexlink}"> Rex Import </a> -- <a href="${videolink}"> Video Link</a> </strong> </div> <br>`
-    newLog += `<div class="image" id="image-${classTitle}"> <img src="${thumbnail}" height="150px"> </div> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div> <br>`
+    newLog += `<div class="image" > <img id="image-${classTitle}" src="${thumbnail}" height="150px"> </div> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div> <br>`
     newLog += `<div class="cardcontainer" id="cardinfo-${classTitle}" style="display:none"> `
 
     for (let i=0; i<sectionsArray.length; i++) {
@@ -265,12 +280,16 @@ function mpLog(title, rexlink, videolink, sectionsArray, thumbnail) {
     logContainer.innerHTML += newLog
 
     cardInfoList.push(classTitle);
+    cardTitleObj[classTitle] = object;
 
+    let image = document.getElementById(`image-${classTitle}`);
+    image.addEventListener('mouseenter', imageToGif(image));
+    image.addEventListener('mouseleave', gifToImage(image));
 }
 
 
 function calculations() {
-  //console.log(allSubtotals)
+
   //calculatedSubtotals = [];
   for (let i=0; i<allSubtotals.length; i++) {
     let calculated = 0;
@@ -280,20 +299,20 @@ function calculations() {
 
     for (let j=0; j<group.length; j++) {
       let item = group[j];
-     // console.log(item)
+    
 
       if (bonusKeys.includes(item.substring(0, item.length - 1))) {
-        console.log(`Bonus keys (${bonusKeys}) includes ${item.substring(0, item.length - 1)}`)
+    
         //we are a potential multiplier
         let bonusName = item.substring(0, item.length - 1)
         if (bonusesObject[bonusName][2] == "multiplied") {
           
           let type = item.charAt(item.length - 1);
-          console.log(`bonus is multiplied select with type of ${type}`)
+          
             if (type == "p") type = "partialBody";
             else if (type == "h") type = "halfBody";
             else if (type == "f") type = "fullBody";
-            console.log(`type is now ${type}`)
+          
           calculated += (bonusesObject[bonusName][0] * bonusesObject[type][0]);
         } else {
           calculated += bonusesObject[bonusName][0]
@@ -375,6 +394,21 @@ function buttonFunctions() {
   }
 }
 
+function imageToGif(image) {
+  let id = image.getAttribute('id').split('-')[1];
+  let cardObj = cardTitleObj[id]
+  if (cardObj.gif != undefined) {
+    image.setAttribute('src', cardObj.gif)
+  }
+}
+function gifToImage(image) {
+  let id = image.getAttribute('id').split('-')[1];
+  let cardObj = cardTitleObj[id]
+  if (cardObj.thumbnail != undefined) {
+    image.setAttribute('src', cardObj.thumbnail)
+  }
+  //image.setAttribute('src', cardObj.thumbnail)
+}
 
 //fullbodies:
 mpLogObj(scipiosLook)
@@ -402,4 +436,5 @@ calculations();
 
 buttonFunctions();
 
+console.log(`keys: ` + Object.keys(cardTitleObj))
 
