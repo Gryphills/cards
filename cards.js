@@ -99,7 +99,7 @@ const hyllinFight = {
 
 
 const astra = {
-  title: "Astra-talking",
+  title: "Astra Talking",
   video: 'https://syncsketch.com/sketch/c6F7u0YiY5lf/#/34512717/35944540',
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrbj74-29613e91-1234-43b7-8dc3-1ea23700667c.png/v1/fill/w_1163,h_654,q_80,strp/astrapreview_by_gryphonillustrations_djrbj74-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU0IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJiajc0LTI5NjEzZTkxLTEyMzQtNDNiNy04ZGMzLTFlYTIzNzAwNjY3Yy5wbmciLCJ3aWR0aCI6Ijw9MTE2MyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.H85YzdgT84EC4wAIqv8bXh1_FtkoemoZT6qN2K1kdfE',
   rexLink: 'https://rexalia.world/rex/2657',
