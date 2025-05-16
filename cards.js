@@ -12,6 +12,7 @@ const scipiosLook = {
 
 const ervioWave = {
   title: 'HellErvio!',
+  gif: `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrsz8q-b79b9672-b81e-45d7-8f8a-0e98a36a3e48.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpyc3o4cS1iNzliOTY3Mi1iODFlLTQ1ZDctOGY4YS0wZTk4YTM2YTNlNDguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7tqr8yLDQiI62a3I9l1zvOVxUU_I1cdq0RINS6-niXI`,
   sectionLog: [
     ['1-5', 'partialBody']
   ]
