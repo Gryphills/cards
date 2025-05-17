@@ -57,18 +57,18 @@ function start () {
     let bonusHtml = `<div id="value-${currentBonus}" class='bonusvalue'>`
     if (bonusesObject[currentBonus][2] != 'none') {
       if (bonusesObject[currentBonus][2] == 'multiplied') {
-        bonusHtml += `<input type="radio" name="multiply-${currentBonus}" id="multiplied-${currentBonus}" value="multiplied" checked> &nbsp; <input type="radio" name="multiply-${currentBonus}" id="flat-${currentBonus}" value="flat"> &nbsp;&nbsp; `
+        bonusHtml += `<input type="radio" name="multiply-${currentBonus}" id="multiplied-${currentBonus}" value="multiplied" checked> <input type="radio" name="multiply-${currentBonus}" id="flat-${currentBonus}" value="flat"> &nbsp;&nbsp; `
       } else {
-        bonusHtml += `<input type="radio" name="multiply-${currentBonus}" id="multiplied-${currentBonus}" value="multiplied"> &nbsp; <input type="radio" name="multiply-${currentBonus}" id="flat-${currentBonus}" value="flat" checked> &nbsp;&nbsp; `
+        bonusHtml += `<input type="radio" name="multiply-${currentBonus}" id="multiplied-${currentBonus}" value="multiplied"> <input type="radio" name="multiply-${currentBonus}" id="flat-${currentBonus}" value="flat" checked> &nbsp;&nbsp; `
       }
     } else {
-      bonusHtml += `&nbsp;&nbsp;&nbsp;&nbsp;`
+      bonusHtml += `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`
     }
     bonusHtml += `<input type="number" id="input-${currentBonus}" class="inputbox"> ${bonusesObject[currentBonus][1]} <br> </div>`
     htmlContainer.innerHTML += bonusHtml;
 
     if (i == 2) {
-      htmlContainer.innerHTML += `<p><strong>Additional Bonuses: </strong> <i> Use radio buttons to change if this bonus is multiplied by the body sections bonus, or if it should be flat</i> <br> x &nbsp; _</p>`
+      htmlContainer.innerHTML += `<p><strong>Additional Bonuses: </strong> <i> Use radio buttons to change if this bonus is multiplied by the body sections bonus, or if it should be flat</i> <br> x &nbsp;&nbsp;&nbsp;&nbsp; _</p>`
     } else if (i==7) {
       htmlContainer.innerHTML += `<p><strong> Flat bonuses:</strong></p>`
     } else if (i == 11) {
@@ -194,7 +194,7 @@ function writeBonuses(bonus) {
       let bonusAmount = bonusesObject[bonus][0] * bonusesObject[type][0]
       for (let i=0; i<allBonusInstances.length; i++) {
         let item = allBonusInstances.item(i);
-        item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" +  bonusesObject[bonus][1] + "(" + bonusesObject[bonus][0] + "x Body Sections bonus) <br>"
+        item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" +  bonusesObject[bonus][1] + "<i>(" + bonusesObject[bonus][0] + "x Body  Bonus)</i> <br>"
       }
     }
   }
@@ -320,7 +320,7 @@ function calculations() {
         calculated += bonusesObject[item][0];
       }
     }
-    currentSubtotal.innerHTML = `<i>Subtotal: ${calculated} MP</i>`
+    currentSubtotal.innerHTML = `<i><strong>Subtotal: ${calculated} MP</strong></i>`
     calculatedSubtotals[i] = (calculated);
       
   /*
@@ -382,6 +382,7 @@ function buttonFunctions() {
     
     if (button != null || cardInfo != null) {
     button.addEventListener("click", (e) => {
+      //console.log("CLICK YEAHHHHH")
       let style = cardInfo.getAttribute("style");
       if (style == "" || style == null) 
         cardInfo.setAttribute("style", "display:none")
@@ -392,7 +393,6 @@ function buttonFunctions() {
 
   let image = document.getElementById(`image-${classTitle}`);
   image.addEventListener('mouseenter', (e) => {
-    console.log(`mouse Enter`);
       imageToGif(e.target)
     });
     image.addEventListener('mouseleave', (e) => {
@@ -444,3 +444,4 @@ start();
 calculations();
 
 buttonFunctions();
+
