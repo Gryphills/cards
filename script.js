@@ -51,7 +51,7 @@ function start () {
   //<div id='thing' class='bonusvalue'> <input type="number" id="partialBody" class="inputbox"> Partial Body (1-2 sections) <br> </div>
 
   let htmlContainer = document.getElementById('bonus-values');
-  htmlContainer.innerHTML
+  let bonusValueStuff = `<div class="valuecategory">  <p><strong> Moving Body Sections:</strong> </p>`
   for (let i=0; i < bonusKeys.length; i++) {
     let currentBonus = bonusKeys[i];
     let bonusHtml = `<div id="value-${currentBonus}" class='bonusvalue'>`
@@ -65,19 +65,19 @@ function start () {
       bonusHtml += `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`
     }
     bonusHtml += `<input type="number" id="input-${currentBonus}" class="inputbox"> ${bonusesObject[currentBonus][1]} <br> </div>`
-    htmlContainer.innerHTML += bonusHtml;
+    bonusValueStuff += bonusHtml;
 
     if (i == 2) {
-      htmlContainer.innerHTML += `<p><strong>Additional Bonuses: </strong> <i> Use radio buttons to change if this bonus is multiplied by the body sections bonus, or if it should be flat</i> <br> x &nbsp;&nbsp;&nbsp;&nbsp; _</p>`
+      bonusValueStuff += `</div><div class="valuecategory"><p><strong>Additional Bonuses: </strong> <br> <i> Use radio buttons to change if this bonus is multiplied by the body sections bonus, or if it should be flat</i> <br><br> ( x ) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( _ )</p>`
     } else if (i==7) {
-      htmlContainer.innerHTML += `<p><strong> Flat bonuses:</strong></p>`
+      bonusValueStuff += `</div> <div class="valuecategory"><p><strong> Flat bonuses:</strong></p>`
     } else if (i == 11) {
-      htmlContainer.innerHTML += `<p><strong>Animated Background:</strong></p>`
+      bonusValueStuff += `</div> <div class="valuecategory"> <p><strong>Animated Background:</strong></p>`
     }
 
     
-    let htmlItem = document.getElementById(`input-${currentBonus}`);
-    htmlItem.setAttribute("value", bonusesObject[currentBonus][0])
+    //let htmlItem = document.getElementById(`input-${currentBonus}`);
+    //htmlItem.setAttribute("value", bonusesObject[currentBonus][0])
     /*
     htmlItem.addEventListener("input", (e) => {
       bonusesObject[currentBonus][0] = Number(e.target.value);
@@ -87,6 +87,8 @@ function start () {
     })*/
     writeBonuses(currentBonus);
   }
+  
+  htmlContainer.innerHTML += bonusValueStuff
   for (let i=0; i<bgStuff.length; i++) {
     writeBonuses(bgStuff[i])
   }
