@@ -28,10 +28,14 @@ const bonusesObject = {
 
   abstract  : [1, "Abstract BG", 'none'],
   pOrE  : [4, "Planes OR Elements", 'none'],
-  pAndE  : [10, "Planes AND Elements", 'none']
+  pAndE  : [10, "Planes AND Elements", 'none'],
+
+  staticBody: [1, "Static Body Sections (never moves)", 'none'],
+  staticShading: [2, "Static Shading", 'none'],
+  staticFlat: [1, 'Static Flat', 'none']
 };
   
-const bgStuff = ["abstract", "pOrE", "pAndE"];
+const fixedStuff = ["abstract", "pOrE", "pAndE", 'staticBody', 'staticShading', 'staticFlat'];
 
 const multiplied = ['animationPrinciples','offsetDetails', 'trad3', 'shading',  'traditional']
 const bodyParts = ['partialBody', 'halfBody', 'fullBody']
@@ -39,8 +43,8 @@ const bodyParts = ['partialBody', 'halfBody', 'fullBody']
 
 function start () {
   let bonusKeys = Object.getOwnPropertyNames(bonusesObject);
-  for (let i=0; i<bgStuff.length; i++) {
-    let index = bonusKeys.indexOf(bgStuff[i]);
+  for (let i=0; i<fixedStuff.length; i++) {
+    let index = bonusKeys.indexOf(fixedStuff[i]);
     bonusKeys.splice(index, 1);
   }/*
   for (let i=0; i<bodyParts.length; i++) {
@@ -76,8 +80,7 @@ function start () {
     }
 
     
-    //let htmlItem = document.getElementById(`input-${currentBonus}`);
-    //htmlItem.setAttribute("value", bonusesObject[currentBonus][0])
+    
     /*
     htmlItem.addEventListener("input", (e) => {
       bonusesObject[currentBonus][0] = Number(e.target.value);
@@ -87,10 +90,16 @@ function start () {
     })*/
     writeBonuses(currentBonus);
   }
-  
   htmlContainer.innerHTML += bonusValueStuff
-  for (let i=0; i<bgStuff.length; i++) {
-    writeBonuses(bgStuff[i])
+
+  for (let i=0; i < bonusKeys.length; i++) {
+    let currentBonus = bonusKeys[i];
+    let htmlItem = document.getElementById(`input-${currentBonus}`);
+    htmlItem.setAttribute("value", bonusesObject[currentBonus][0])
+  }
+
+  for (let i=0; i<fixedStuff.length; i++) {
+    writeBonuses(fixedStuff[i])
   }
 
   
@@ -250,7 +259,6 @@ function mpLogObj(object) {
     let videolink = object.video;
     let sectionsArray = object.sectionLog;
     let thumbnail = object.thumbnail;
-    let gif = object.gif;
 
 
     let logContainer = document.getElementById("all-logs");
@@ -258,7 +266,7 @@ function mpLogObj(object) {
     let classTitle = title.split(" ")[0] + randomNumber;
     object.classTitle = classTitle;
     //console.log(classTitle)
-    let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} <br> <a href="${rexlink}"> Rex Import </a> -- <a href="${videolink}"> Video Link</a> </strong> </div> <br>`
+    let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} </strong> <br> <a href="${rexlink}"> Rex Import </a> -- <a href="${videolink}"> Video Link</a>  </div> <br>`
     newLog += `<div class="image" id="image-${classTitle}"> <img src="${thumbnail}" height="150px"> </div> <br> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div>`
     newLog += `<div class="cardcontainer" id="cardinfo-${classTitle}" style="display:none"> `
 
