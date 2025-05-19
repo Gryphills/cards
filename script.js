@@ -369,17 +369,20 @@ function gifToImage(image) {
 }
 
 //fullbodies:
-mpLogObj(scipiosLook)
+
 mpLogObj(sirius)
 mpLogObj(minecraftRun)
+mpLogObj(scipiosLook)
+//mpLogObj(hyllinFight)
 mpLogObj(selkieSwim)
 mpLogObj(foxJump)
-mpLogObj(hyllinFight)
+
 
 //mid body
 mpLogObj(flowerCrown)
-mpLogObj(astra)
 mpLogObj(starburst)
+mpLogObj(astra)
+
 
 //partial body
 
