@@ -1,6 +1,7 @@
 
 const scipiosLook = {
-  title: "Scipios Looking",
+  title: "Scipio Looking",
+  rexName: "Scipio",
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dikkxh4-7d667e9c-1897-4a11-a978-8da4b77fd9a3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGlra3hoNC03ZDY2N2U5Yy0xODk3LTRhMTEtYTk3OC04ZGE0Yjc3ZmQ5YTMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kPoXqQLC3Qk_78kQpHbdNKEnvjP--BFGGI1eAu8K510',
   video: 'https://syncsketch.com/sketch/NGQ1YzMzYzk0/#/30485679/31698338',
   thumbnail: 'https://cdn.discordapp.com/attachments/1195987621218898040/1371964056298323968/scipio-0019.png?ex=68250c98&is=6823bb18&hm=0dcd37eba9d81fd008f69ebe7dea51598557cf179780bb027187614f34156fff&',
@@ -26,6 +27,7 @@ const ervioWave = {
 
 const tritTrot = {
   title: 'Trit Trottin Along',
+  rexName: "Ignus",
   video: 'https://syncsketch.com/sketch/ZDE2OGI2ZWQ0/#/29440984/30600240',
   rexLink: 'https://rexalia.world/rex/2001',
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dh334u7-60a4bd21-69b4-489f-9163-28fe8e2984f7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGgzMzR1Ny02MGE0YmQyMS02OWI0LTQ4OWYtOTE2My0yOGZlOGUyOTg0ZjcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.AIeiLR6Aj7q3KdUTCF19BkMZcJ3Lyk0nTKcIUI7rIZI',
@@ -51,6 +53,7 @@ const minecraftRun = {
 
 const selkieSwim = {
   title: `Selkie's Swim Coac`,
+  rexName: 'Selkie',
   video: 'https://syncsketch.com/sketch/MjYyMTkxZGI5/#/29371608/30526385',
   gif: 'https://rexalia.world/storage/galeria/28/frrjDsx1CABXrE094YVcQROCSPsOWK2qibnFpCks.gif',
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/32deac1a-b3f1-4c9b-9a0b-475435f09fee/dh7cgia-867b788f-fad4-4095-8f2b-226761abd2c7.gif/v1/fill/w_219,h_350,q_85,strp/_anim__at_home_in_the_deep_by_visceralluster_dh7cgia-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIwMCIsInBhdGgiOiJcL2ZcLzMyZGVhYzFhLWIzZjEtNGM5Yi05YTBiLTQ3NTQzNWYwOWZlZVwvZGg3Y2dpYS04NjdiNzg4Zi1mYWQ0LTQwOTUtOGYyYi0yMjY3NjFhYmQyYzcuZ2lmIiwid2lkdGgiOiI8PTc1MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.PHtBitfM8xMUMfPbtD3uYYe62Xiwf_01x4dvYK8FNrA',
