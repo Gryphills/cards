@@ -27,6 +27,15 @@
    margin-right: 15px;
 }
 
+.rules {
+  background-color: rgb(199,191,178);
+  outline: 5px solid rgb(138,131,120);
+  margin: 15px;
+  padding: 15px;
+   padding-left: 12%;
+   padding-right: 12%;
+}
+
 .column {
    display: flex;
    flex-direction: row;
