@@ -1,4 +1,5 @@
-
+//todo: make static bonuses grb the number & apply that as bonus
+//add a Note function
 const bonusesObject = {
 
   partialBody : [ 3, "Partial Body (1-2 sections)" , 'none'],
@@ -30,9 +31,9 @@ const bonusesObject = {
   pOrE  : [4, "Planes OR Elements", 'none'],
   pAndE  : [10, "Planes AND Elements", 'none'],
 
-  staticBody: [1, "Static Body Sections (never moves)", 'none'],
-  staticShading: [2, "Static Shading", 'none'],
-  staticFlat: [1, 'Static Flat', 'none']
+  staticBody: [1, "Static Body Sections (never moves)", 'static'],
+  staticShading: [2, "Static Shading", 'static'],
+  staticFlat: [1, 'Static Flat', 'static']
 };
   
 const fixedStuff = ["abstract", "pOrE", "pAndE", 'staticBody', 'staticShading', 'staticFlat'];
@@ -46,7 +47,10 @@ function start () {
   for (let i=0; i<fixedStuff.length; i++) {
     let index = bonusKeys.indexOf(fixedStuff[i]);
     bonusKeys.splice(index, 1);
-  }/*
+  }
+  let index = bonusKeys.indexOf('offsetDetails');
+  bonusKeys.splice(index, 1);
+  /*
   for (let i=0; i<bodyParts.length; i++) {
     let index = bonusKeys.indexOf(bodyParts[i]);
     bonusKeys.splice(index, 1);
@@ -73,9 +77,9 @@ function start () {
 
     if (i == 2) {
       bonusValueStuff += `</div><div class="valuecategory"><p><strong>Additional Bonuses: </strong> <br> <i> Use radio buttons to change if this bonus is multiplied by the body sections bonus, or if it should be flat</i> <br><br> ( x ) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( _ )</p>`
-    } else if (i==7) {
+    } else if (i==6) {
       bonusValueStuff += `</div> <div class="valuecategory"><p><strong> Flat bonuses:</strong></p>`
-    } else if (i == 11) {
+    } else if (i == 10) {
       bonusValueStuff += `</div> <div class="valuecategory"> <p><strong>Animated Background:</strong></p>`
     }
 
@@ -103,6 +107,23 @@ function start () {
   }
 
   
+    let allNoteInstances = document.getElementsByClassName("note_");
+    for (let i=0; i<allNoteInstances.length; i++) {
+      let item = allNoteInstances.item(i);
+        let classes = item.getAttribute('class');
+        classes = classes.split(" ");
+        let note = "";
+        for (let i=0; i < classes.length; i++) {
+          if (classes[i].includes('*')) {
+            note = classes[i].replaceAll("*", " ");
+            break;
+          }
+        }
+
+        item.innerHTML = "<i>" + note + "</i>";
+    }
+  
+  
 
   document.addEventListener('input', (e) => {
     if ( e.target.type == 'radio' ) {
@@ -110,7 +131,6 @@ function start () {
       id = id.split("-")[1];
       if (id != undefined) {
         bonusesObject[id][2] = String(e.target.value);
-        //flatOrMultiply(id)
         writeBonuses(id)
         calculations();
       }
@@ -129,70 +149,7 @@ function start () {
 
 }
 
-function flatOrMultiply (id) {
 
-}
-
-/*
-function start() {
-  let bonusKeys = Object.getOwnPropertyNames(bonusesObject);
-  for (let i=0; i<bgStuff.length; i++) {
-    let index = bonusKeys.indexOf(bgStuff[i]);
-    bonusKeys.splice(index, 1);
-  }
-
-  for (let i=0; i < bonusKeys.length; i++) {
-    let currentBonus = bonusKeys[i];
-    let htmlItem = document.getElementById(currentBonus);
-    htmlItem.setAttribute("value", bonusesObject[currentBonus][0])
-    htmlItem.addEventListener("input", (e) => {
-      bonusesObject[currentBonus][0] = Number(e.target.value);
-      updateValues(currentBonus);
-      writeMPlogStuff(currentBonus);
-      calculations();
-    })
-    writeMPlogStuff(currentBonus);
-  }
-  for (let i=0; i<bgStuff.length; i++) {
-    writeMPlogStuff(bgStuff[i])
-  }
-}*/
-
-/*
-function writeMPlogStuff(bonus) { //start it
-  
-  if (multiplied.includes(bonus)) {
-    let bodyArray = ['p', 'h', 'f'];
-    for (let b=0; b<bodyArray.length; b++) {
-      let type = bodyArray[b]
-      if (type == "p") type = "partialBody";
-      if (type == "h") type = "halfBody";
-      if (type == "f") type = "fullBody";
-      let bonusAmount = (bonusesObject[type][0] * bonusesObject[bonus][0])
-      console.log(bonus + bodyArray[b])
-      writeBonuses(bonus + bodyArray[b], bonusAmount)
-    }
-  }
-  /*
-  if (bonus.includes('traditional')) {
-    let bodyArray = ['p', 'h', 'f'];
-    for (let b=0; b<bodyArray.length; b++) {
-     // console.log("yeah??")
-      let type = bodyArray[b]
-      //allBonusInstances = document.getElementsByClassName(type);
-      if (type == "p") type = "partialBody";
-      if (type == "h") type = "halfBody";
-      if (type == "f") type = "fullBody";
-        //console.log(type + "is the type???")
-      let bonusAmount = (bonusesObject[type][0] * bonusesObject.traditional[0]) - bonusesObject[type][0]
-
-      writeBonuses('traditional' + bodyArray[b], bonusAmount)
-    }* /
-  else {
-    bonusAmount = bonusesObject[bonus][0];
-    writeBonuses(bonus, bonusAmount)
-  }
-} */
 
 function writeBonuses(bonus) { 
 
@@ -229,15 +186,27 @@ function writeBonuses(bonus) {
         item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" + bonusesObject[bonus][1] + "<br>";
     }
   }
-}
-
-function updateValues(updatedBonus) {
-  let collectionToUpdate = document.getElementsByClassName(updatedBonus)
-  for (let i=0; i < collectionToUpdate.length; i++) {
-    let current = collectionToUpdate.item(i);
-    current.innerHTML = bonusesObject[updatedBonus]
+  
+  else if (bonusesObject[bonus][2] == 'static') {
+    let allBonusInstances = document.getElementsByClassName(bonus);
+    //let bonusAmount = bonusesObject[bonus][0]
+    for (let i=0; i<allBonusInstances.length; i++) {
+      let item = allBonusInstances.item(i);
+      let classes = item.getAttribute('class').split(" ")
+      let sections = 0;
+      for (let i=0; i < classes.length; i++) {
+        console.log(classes[i]);
+        if (classes[i].length == 1){
+          sections = classes[i];
+          break
+        }
+      }
+      let bonusAmount = Number(sections) * bonusesObject[bonus][0];
+      item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" + bonusesObject[bonus][1] + "<br>";
+    }
   }
 }
+
 
 
 const allSubtotals = [];
@@ -266,7 +235,7 @@ function mpLogObj(object) {
     let classTitle = title.split(" ")[0] + randomNumber;
     object.classTitle = classTitle;
     //console.log(classTitle)
-    let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} </strong> <br> <a href="${rexlink}"> Rex Import </a> -- <a href="${videolink}"> Video Link</a>  </div> <br>`
+    let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} </strong> <br> <i> for ${object.rexName} </i> <br> <a href="${videolink}"> Video Link</a>  </div> <br>`
     newLog += `<div class="image" id="image-${classTitle}"> <img src="${thumbnail}" height="150px"> </div> <br> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div>`
     newLog += `<div class="cardcontainer" id="cardinfo-${classTitle}" style="display:none"> `
 
@@ -274,12 +243,17 @@ function mpLogObj(object) {
       let section = sectionsArray[i];
       let subtotal = [];
       for (let j=0; j<section.length; j++) {
-        if (j==0) {
-          newLog += `<div class="sectionstart"> ${section[0]}: </div>`;
-        }
-        else {
-          newLog += `<div class="${section[j]} inputrows"> </div>`
-          subtotal.push(section[j])
+        if (!section[j].includes('offset')) {
+
+          if (j==0) {
+            newLog += `<div class="sectionstart"> ${section[0]}: </div>`;
+          }
+          else {
+            newLog += `<div class="${section[j]} inputrows"> </div>`
+            if (!section[j].includes('note_')) {
+              subtotal.push(section[j])
+            }
+          }
         }
       }
       allSubtotals.push(subtotal);
@@ -307,70 +281,36 @@ function calculations() {
     let bonusKeys = Object.getOwnPropertyNames(bonusesObject);
 
     for (let j=0; j<group.length; j++) {
-      let item = group[j];
+      let item = group[j].split(" ")[0];
     
-
-      if (bonusKeys.includes(item.substring(0, item.length - 1))) {
-    
-        //we are a potential multiplier
-        let bonusName = item.substring(0, item.length - 1)
-        if (bonusesObject[bonusName][2] == "multiplied") {
-          
-          let type = item.charAt(item.length - 1);
-          
-            if (type == "p") type = "partialBody";
-            else if (type == "h") type = "halfBody";
-            else if (type == "f") type = "fullBody";
-          
-          calculated += (bonusesObject[bonusName][0] * bonusesObject[type][0]);
-        } else {
-          calculated += bonusesObject[bonusName][0]
+      if (item != 'note_') {
+        if (bonusKeys.includes(item.substring(0, item.length - 1))) {
+      
+          //we are a potential multiplier
+          let bonusName = item.substring(0, item.length - 1)
+          if (bonusesObject[bonusName][2] == "multiplied") {
+            
+            let type = item.charAt(item.length - 1);
+              if (type == "p") type = "partialBody";
+              else if (type == "h") type = "halfBody";
+              else if (type == "f") type = "fullBody";
+            
+            calculated += (bonusesObject[bonusName][0] * bonusesObject[type][0]);
+          } else {
+            calculated += bonusesObject[bonusName][0]
+          }
+        } else if (bonusesObject[item][2] == "static") {
+            let sections = group[j].charAt(group[j].length - 1)
+            calculated += Number(sections) * bonusesObject[item][0];
+        } else if (item != "note_") {
+          calculated += bonusesObject[item][0];
         }
-      } else {
-        calculated += bonusesObject[item][0];
       }
+      currentSubtotal.innerHTML = `<i><strong>Subtotal: ${calculated} MP</strong></i>`
+      calculatedSubtotals[i] = (calculated);
     }
-    currentSubtotal.innerHTML = `<i><strong>Subtotal: ${calculated} MP</strong></i>`
-    calculatedSubtotals[i] = (calculated);
-      
-  /*
-      if (multiplied.includes(item.substring(0, item.length - 1))) {
-        let itemName = item.substring(0, item.length - 1)
-        let type = item.charAt(item.length - 1);
-        if (type == "p") type = "partialBody";
-        if (type == "h") type = "halfBody";
-        if (type == "f") type = "fullBody";
-
-        let bonusAmount = (bonusesObject[type][0] * bonusesObject[itemName][0]) - bonusesObject[type][0]
-        calculated += bonusAmount;
-        //console.log('trad bonuse: ' + bonusAmount)
-        currentSubtotal.innerHTML = `<i>Subtotal: ${calculated} MP</i>`
-      }
-      */
-      /*if (item.includes("traditional")) {
-        //console.log('TRADITIONAL OK')
-        let type = item.charAt(item.length - 1);
-        if (type == "p") type = "partialBody";
-        if (type == "h") type = "halfBody";
-        if (type == "f") type = "fullBody";
-      
-        let bonusAmount = (bonusesObject[type][0] * bonusesObject.traditional[0]) - bonusesObject[type][0]
-        calculated += bonusAmount;
-        //console.log('trad bonuse: ' + bonusAmount)
-        currentSubtotal.innerHTML = `<i>Subtotal: ${calculated} MP</i>`
-    
-      }
-      else {
-        //console.log(item);
-        //console.log(bonusesObject[item])
-        calculated += bonusesObject[item][0];
-        currentSubtotal.innerHTML = `<i>Subtotal: ${calculated} MP</i>`
-    
-      }
-    }
-    calculatedSubtotals[i] = (calculated);
-    }*/
   }
+
   let usedSubtotals = 0;
     for (let i=0; i<allTotals.length; i++) {
       let calculated = 0;
