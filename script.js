@@ -1,5 +1,4 @@
-//todo: make static bonuses grb the number & apply that as bonus
-//add a Note function
+
 const bonusesObject = {
 
   partialBody : [ 3, "Partial Body (1-2 sections)" , 'none'],
