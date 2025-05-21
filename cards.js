@@ -1,7 +1,6 @@
 
 const scipiosLook = {
-  title: "Scipio Looking",
-  rexName: "Scipio",
+  title: "Scipios Looking",
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dikkxh4-7d667e9c-1897-4a11-a978-8da4b77fd9a3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGlra3hoNC03ZDY2N2U5Yy0xODk3LTRhMTEtYTk3OC04ZGE0Yjc3ZmQ5YTMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kPoXqQLC3Qk_78kQpHbdNKEnvjP--BFGGI1eAu8K510',
   video: 'https://syncsketch.com/sketch/NGQ1YzMzYzk0/#/30485679/31698338',
   thumbnail: 'https://cdn.discordapp.com/attachments/1195987621218898040/1371964056298323968/scipio-0019.png?ex=68250c98&is=6823bb18&hm=0dcd37eba9d81fd008f69ebe7dea51598557cf179780bb027187614f34156fff&',
@@ -16,8 +15,8 @@ const ervioWave = {
   rexName: "Ervio",
   sectionLog: [
     ['Overall Bonuses', 'abstract', 'staticBody 3', 'staticFlat 3'],
-    ['1-15', 'partialBody', 'animationPrinciplesp'],
-    ['15-28', 'partialBody', 'animationPrinciplesp']
+    ['1-15', 'partialBody', 'animationPrinciplesp']
+    //['15-28', 'partialBody', 'animationPrinciplesp']
   ],
   video: 'https://syncsketch.com/sketch/PlOqRA01T0j7/#/34614850/36053050',
   gif: `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrsz8q-b79b9672-b81e-45d7-8f8a-0e98a36a3e48.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpyc3o4cS1iNzliOTY3Mi1iODFlLTQ1ZDctOGY4YS0wZTk4YTM2YTNlNDguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7tqr8yLDQiI62a3I9l1zvOVxUU_I1cdq0RINS6-niXI`,
@@ -27,7 +26,6 @@ const ervioWave = {
 
 const tritTrot = {
   title: 'Trit Trottin Along',
-  rexName: "Ignus",
   video: 'https://syncsketch.com/sketch/ZDE2OGI2ZWQ0/#/29440984/30600240',
   rexLink: 'https://rexalia.world/rex/2001',
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dh334u7-60a4bd21-69b4-489f-9163-28fe8e2984f7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGgzMzR1Ny02MGE0YmQyMS02OWI0LTQ4OWYtOTE2My0yOGZlOGUyOTg0ZjcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.AIeiLR6Aj7q3KdUTCF19BkMZcJ3Lyk0nTKcIUI7rIZI',
@@ -53,7 +51,6 @@ const minecraftRun = {
 
 const selkieSwim = {
   title: `Selkie's Swim Coac`,
-  rexName: 'Selkie',
   video: 'https://syncsketch.com/sketch/MjYyMTkxZGI5/#/29371608/30526385',
   gif: 'https://rexalia.world/storage/galeria/28/frrjDsx1CABXrE094YVcQROCSPsOWK2qibnFpCks.gif',
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/32deac1a-b3f1-4c9b-9a0b-475435f09fee/dh7cgia-867b788f-fad4-4095-8f2b-226761abd2c7.gif/v1/fill/w_219,h_350,q_85,strp/_anim__at_home_in_the_deep_by_visceralluster_dh7cgia-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIwMCIsInBhdGgiOiJcL2ZcLzMyZGVhYzFhLWIzZjEtNGM5Yi05YTBiLTQ3NTQzNWYwOWZlZVwvZGg3Y2dpYS04NjdiNzg4Zi1mYWQ0LTQwOTUtOGYyYi0yMjY3NjFhYmQyYzcuZ2lmIiwid2lkdGgiOiI8PTc1MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.PHtBitfM8xMUMfPbtD3uYYe62Xiwf_01x4dvYK8FNrA',
@@ -100,11 +97,11 @@ const hyllinFight = {
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c1ae54db-959b-4f49-aadc-f682f0d0725e/djqpjr3-5fd09a1f-e4a4-4917-b201-97e4442f9136.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MxYWU1NGRiLTk1OWItNGY0OS1hYWRjLWY2ODJmMGQwNzI1ZVwvZGpxcGpyMy01ZmQwOWExZi1lNGE0LTQ5MTctYjIwMS05N2U0NDQyZjkxMzYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.03TPhmYUu60drWHjw0j4devwE88M8tTYj4OVQDbOGP4',
   title: "Baker Fight",
   video: 'https://syncsketch.com/sketch/bRzx5js8hp1q/#/34515659/35947832',
-  rexName: 'Papilio (left)',
+  rexName: 'Viola (right)',
   sectionLog: [
     ['Overall Bonuses', 'pAndE', 'bgSimple'],
-    ['1-3', 'fullBody', 'animationPrinciplesf', 'shadingf', 'traditionalf', 'outfit'],
-    ['3-5', 'fullBody', 'animationPrinciplesf', 'shadingf', 'traditionalf', 'outfit']
+    ['1-3', 'fullBody', 'animationPrinciplesf', 'shadingf', 'traditionalf', 'outfit', 'magic'],
+    ['3-5', 'fullBody', 'animationPrinciplesf', 'shadingf', 'traditionalf', 'outfit',  'magic']
   ],
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c1ae54db-959b-4f49-aadc-f682f0d0725e/djq5q15-45668a4e-4336-46e0-a5bb-5e24cc40d01e.png/v1/fill/w_1081,h_739,q_70,strp/timeline_1_0005_by_hyllin_djq5q15-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODc2IiwicGF0aCI6IlwvZlwvYzFhZTU0ZGItOTU5Yi00ZjQ5LWFhZGMtZjY4MmYwZDA3MjVlXC9kanE1cTE1LTQ1NjY4YTRlLTQzMzYtNDZlMC1hNWJiLTVlMjRjYzQwZDAxZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.z8IhFd7quLZKDJ7_zgUrdvQSSWYuDhS6OgRFzp0-kIc'
 
@@ -143,7 +140,7 @@ const starburst = {
   title: "FightyStar",
   sectionLog: [
     ['Overall Bonuses', 'abstract'], 
-  ['15-31',  'halfBody', 'animationPrinciplesh', 'accessories', 'magic', 'shadingh', 'note_ Do*we*think*this*section*gets*the*traditional*bonus?*(Only*keys*are*redraw,*all*other*frames*are*just*trickery)'], 
+  ['15-31',  'halfBody', 'animationPrinciplesh', 'accessories', 'magic', 'shadingh', /*'note_ Do*we*think*this*section*gets*the*traditional*bonus?*(Only*keys*are*redraw,*all*other*frames*are*just*trickery)'*/], 
   ['39-59', 'halfBody', 'animationPrinciplesh', 'traditionalh', 'trad3h', 'accessories', 'magic', 'shadingh']],
   thumbnail: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dh6lsa9-66008e5e-bab1-44a0-8572-51a39d11bee9.gif/v1/fill/w_622,h_350,q_85,strp/you_sure_you_want_a_fight____animation_by_gryphonillustrations_dh6lsa9-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGg2bHNhOS02NjAwOGU1ZS1iYWIxLTQ0YTAtODU3Mi01MWEzOWQxMWJlZTkuZ2lmIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.y3BvMU0a4sG9JqsPrE3_5iQG9r85NRGUnoFHgdzjcXU",
   gif: `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dh6lsa9-66008e5e-bab1-44a0-8572-51a39d11bee9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGg2bHNhOS02NjAwOGU1ZS1iYWIxLTQ0YTAtODU3Mi01MWEzOWQxMWJlZTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ARIXJQm3imbryR_wMQAUvU-tJqlVU-rzwk-i-yzDRio`,
@@ -170,7 +167,7 @@ const coac = {
 
 const coac2 = {
   title: "Stag Hunt scene 2",
-  sectionLog: [ [ 'Overall Bonuses', 'pAndE', 'bgSimple', 'note_ Do*we*think*the*bg*is*simple*or*complex*animation*here?' ],
+  sectionLog: [ [ 'Overall Bonuses', 'pAndE', 'bgSimple'/*, 'note_ Do*we*think*the*bg*is*simple*or*complex*animation*here?' */],
   [ '131-135',     'halfBody',    'animationPrinciplesh',    'shadingh',    'magic' ],
   [ '135-145',    'fullBody',    'animationPrinciplesf',    'shadingf',    'magic' ],
   [ '145-161',    'fullBody',    'animationPrinciplesf',    'shadingf',    'magic' ],
@@ -180,6 +177,22 @@ const coac2 = {
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrtj8c-dc2e568f-ceda-45f4-886d-8fbae915f5ef.png/v1/fill/w_1192,h_670,q_70,strp/shadeddd_0169_by_gryphonillustrations_djrtj8c-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJ0ajhjLWRjMmU1NjhmLWNlZGEtNDVmNC04ODZkLThmYmFlOTE1ZjVlZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.QfoItp6rVmZSqG2u5-GDfwyywRQXOtMW-O51jXk8pVI',
   rexName: 'Evernia'
 
+}
+
+
+const gotSticks = {
+  title: 'Got Sticks?',
+  rexName: 'Kirt',
+  gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d5874dce-fbf8-4a24-9ac6-7ff8037c25dc/dheyhn7-865669fc-859e-43a7-91bc-0ab5d9f36a74.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q1ODc0ZGNlLWZiZjgtNGEyNC05YWM2LTdmZjgwMzdjMjVkY1wvZGhleWhuNy04NjU2NjlmYy04NTllLTQzYTctOTFiYy0wYWI1ZDlmMzZhNzQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jtjP91KXoGaPz9WLmH7yN8kkbU6BxTii7C8kFLlh8oM',
+  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d5874dce-fbf8-4a24-9ac6-7ff8037c25dc/dheyhn7-865669fc-859e-43a7-91bc-0ab5d9f36a74.gif/v1/fill/w_250,h_250,q_85,strp/got_sticks__by_babykitten123_dheyhn7-250t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2Q1ODc0ZGNlLWZiZjgtNGEyNC05YWM2LTdmZjgwMzdjMjVkY1wvZGhleWhuNy04NjU2NjlmYy04NTllLTQzYTctOTFiYy0wYWI1ZDlmMzZhNzQuZ2lmIiwid2lkdGgiOiI8PTEwODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.H5zjAvmstvYvAFuc3fVZRZNcDtPJX4xExaY16nqxZbU',
+  sectionLog: [
+    ['Overall Bonuses', 'abstract'],
+    ['fr37-47', 'partialBody', 'animationPrinciplesp', 'traditionalp'],
+    ['fr49-61', 'partialBody', 'animationPrinciplesp', 'traditionalp'],
+    ['fr69-105', 'partialBody', 'animationPrinciplesp', 'traditionalp'],
+    ['fr111-125', 'partialBody', 'animationPrinciplesp'],
+    ['fr133-145', 'partialBody', 'animationPrinciplesp']
+  ]
 }
 
 //////
@@ -198,3 +211,27 @@ const sharkSave = {
     ['fr8-9', 'fullBody', 'animationPrinciples', 'shading', 'offsetDetails']
   ]
 }
+
+
+
+const glacialPixel = {
+  title: 'Pixel Diablo',
+  gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsh5om-1e3f0191-0184-4390-90e1-2adf8d9bfc21.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzaDVvbS0xZTNmMDE5MS0wMTg0LTQzOTAtOTBlMS0yYWRmOGQ5YmZjMjEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hHbjPJ04MWPaqjSM2a0VJfxU-3Jr6doYUf57rH7OdLA',
+  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsh5om-1e3f0191-0184-4390-90e1-2adf8d9bfc21.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzaDVvbS0xZTNmMDE5MS0wMTg0LTQzOTAtOTBlMS0yYWRmOGQ5YmZjMjEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hHbjPJ04MWPaqjSM2a0VJfxU-3Jr6doYUf57rH7OdLA',
+  rexName: 'Diablo',
+  sectionLog: [
+    ['Normal MP Log: <i>(only 2 frames, not enough for a full keyframe section)</i>', 'normalBody 7', 'normalShading 7', 'tinyFlair']
+  ]
+}
+
+const miliCombined = {
+  title: 'Combined Transform example',
+  gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsqqoq-3b7b92f2-8674-45f4-89ab-31e6cb33f1c1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzcXFvcS0zYjdiOTJmMi04Njc0LTQ1ZjQtODlhYi0zMWU2Y2IzM2YxYzEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xWk5BgxtqD3K1BRigzMyYZEDqMfEpD98YAtMzfdcuLU',
+  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsqqt0-9ecf68f0-e9c5-448e-9ad4-fbde0215e8d5.png/v1/fit/w_599,h_599,q_70,strp/screenshot_2025_05_20_172403_by_gryphonillustrations_djsqqt0-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTk5IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanNxcXQwLTllY2Y2OGYwLWU5YzUtNDQ4ZS05YWQ0LWZiZGUwMjE1ZThkNS5wbmciLCJ3aWR0aCI6Ijw9NTk5In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.OYEscGAtO3m1GaoLDKrRGGzGK2RGeRZJlyElL1yWG48',
+  video: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsqqoq-3b7b92f2-8674-45f4-89ab-31e6cb33f1c1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzcXFvcS0zYjdiOTJmMi04Njc0LTQ1ZjQtODlhYi0zMWU2Y2IzM2YxYzEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xWk5BgxtqD3K1BRigzMyYZEDqMfEpD98YAtMzfdcuLU',
+  sectionLog: [
+    ['Normal MP Log: <i>(sections that are moving all together do not count as fully animated)</i>', 'normalBody 7', 'normalFlat 7', 'tinyFlair', 'abstract']
+  ]
+}
+
+
