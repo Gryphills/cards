@@ -12,10 +12,10 @@ const bonusesObject = {
   shading  : [5, "Shaded", 'flat'],
   traditional  : [3, "Traditional Bonus (keys + at least 1 inbetween are drawn)", 'multiplied'],
 
-  magic  : [4, "Magic", 'none'],
-  jewellery  : [2, "Jewellery", 'none'],
-  accessories  : [4, "Accessories", 'none'],
-  outfit  : [4, "Clothing", 'none'],
+  magic  : [2, "Magic", 'none'],
+  jewellery  : [1, "Jewellery", 'none'],
+  accessories  : [2, "Accessories", 'none'],
+  outfit  : [2, "Clothing", 'none'],
 
   /*otherRex  : [2, "(Static) Other Player Rex"],
   otherRexAnim  : [4, "Animated Other Player Rex"],
