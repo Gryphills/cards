@@ -1,16 +1,15 @@
-
 const bonusesObject = {
 
-  partialBody : [ 3, "Partial Body (1-2 sections)" , 'none'],
-  halfBody  : [ 8, "Half Body (3-5 sections)" , 'none'],
-  fullBody  : [15, "Full Body (6-7 sections)", 'none'],
+  partialBody : [ 2, "Partial Body (1-2 sections)" , 'none'],
+  halfBody  : [ 7, "Half Body (3-5 sections)" , 'none'],
+  fullBody  : [14, "Full Body (6-7 sections)", 'none'],
 
   animationPrinciples  : [2, "Animation Principles", 'multiplied'],
-  offsetDetails  : [0, "Complex Details", 'multiplied'],
-  trad3: [2, "3+ handDrawn frames inbetween keys", 'multiplied'],
+  offsetDetails  : [0, "Offset Details", 'multiplied'],
+  trad3: [4, "3 or more hand-drawn frames BETWEEN keys", 'multiplied'],
 
   shading  : [5, "Shaded", 'flat'],
-  traditional  : [4, "Traditional Bonus", 'multiplied'],
+  traditional  : [4, "Traditional Bonus (keys + at least 1 inbetween are drawn)", 'multiplied'],
 
   magic  : [4, "Magic", 'none'],
   jewellery  : [2, "Jewellery", 'none'],
@@ -24,6 +23,7 @@ const bonusesObject = {
 
   bgSimple  : [4, "Simple Animated BG (stacks)", 'none'],
   bgComplex  : [10, "Complex Animated BG (stacks)", 'none'],
+  tinyFlair: [5, "Small Animated Flair (ONLY applies to regular art cards)", 'none'],
   
 
   abstract  : [1, "Abstract BG", 'none'],
@@ -32,10 +32,13 @@ const bonusesObject = {
 
   staticBody: [1, "Static Body Sections (never moves)", 'static'],
   staticShading: [2, "Static Shading", 'static'],
-  staticFlat: [1, 'Static Flat', 'static']
+  staticFlat: [1, 'Static Flat', 'static'],
+  normalBody: [1, "Body Sections", 'static'],
+  normalShading: [2, "Shaded/Painted", 'static'],
+  normalFlat: [1, 'Flat Colored', 'static']
 };
   
-const fixedStuff = ["abstract", "pOrE", "pAndE", 'staticBody', 'staticShading', 'staticFlat'];
+const fixedStuff = ["abstract", "pOrE", "pAndE", 'staticBody', 'staticShading', 'staticFlat', 'normalBody', 'normalShading', 'normalFlat'];
 
 const multiplied = ['animationPrinciples','offsetDetails', 'trad3', 'shading',  'traditional']
 const bodyParts = ['partialBody', 'halfBody', 'fullBody']
@@ -75,7 +78,7 @@ function start () {
     bonusValueStuff += bonusHtml;
 
     if (i == 2) {
-      bonusValueStuff += `</div><div class="valuecategory"><p><strong>Additional Bonuses: </strong> <br> <i> Use radio buttons to change if this bonus is multiplied by the body sections bonus, or if it should be flat</i> <br><br> ( x ) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( _ )</p>`
+      bonusValueStuff += `</div><div class="valuecategory"><p><strong>Additional Bonuses: </strong> <br> <i> Use radio buttons to change if this bonus is multiplied by the body sections bonus, or if it should be flat</i> <br><br> (x)&nbsp;(_)</p>`
     } else if (i==6) {
       bonusValueStuff += `</div> <div class="valuecategory"><p><strong> Flat bonuses:</strong></p>`
     } else if (i == 10) {
@@ -139,8 +142,12 @@ function start () {
       id = id.split("-")[1];
       if (id != undefined){
         bonusesObject[id][0] = Number(e.target.value);
-        //updateValues(id);
         writeBonuses(id);
+        if (id == 'partialBody' || id == 'halfBody' || id=='fullBody') {
+          for (let i=0; i<multiplied.length; i++) {
+            writeBonuses(multiplied[i])
+          }
+        }
         calculations();
       }
     }
@@ -161,7 +168,7 @@ function writeBonuses(bonus) {
       let bonusAmount = bonusesObject[bonus][0] * bonusesObject[type][0]
       for (let i=0; i<allBonusInstances.length; i++) {
         let item = allBonusInstances.item(i);
-        item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" +  bonusesObject[bonus][1] + "<i>(" + bonusesObject[bonus][0] + "x Body  Bonus)</i> <br>"
+        item.innerHTML = "+ &nbsp;" + bonusAmount + " MP &nbsp;&nbsp;" +  bonusesObject[bonus][1] + "<i> (" + bonusesObject[bonus][0] + "x Body  Bonus)</i> <br>"
       }
     }
   }
@@ -194,7 +201,7 @@ function writeBonuses(bonus) {
       let classes = item.getAttribute('class').split(" ")
       let sections = 0;
       for (let i=0; i < classes.length; i++) {
-        console.log(classes[i]);
+        //console.log(classes[i]);
         if (classes[i].length == 1){
           sections = classes[i];
           break
@@ -221,7 +228,7 @@ const cardTitleObj = {
 
 
 
-function mpLogObj(object) {
+function mpLogObj(object, container) {
     let title = object.title;
     let rexlink = object.rexLink
     let videolink = object.video;
@@ -230,6 +237,9 @@ function mpLogObj(object) {
 
 
     let logContainer = document.getElementById("all-logs");
+    if (container != null) {
+      logContainer = document.getElementById(container);
+    };
     let randomNumber = Math.floor(Math.random()*11);
     let classTitle = title.split(" ")[0] + randomNumber;
     object.classTitle = classTitle;
@@ -373,8 +383,11 @@ function gifToImage(image) {
 mpLogObj(sirius)
 mpLogObj(minecraftRun)
 mpLogObj(scipiosLook)
+mpLogObj(tritTrot)
 //mpLogObj(hyllinFight)
 mpLogObj(selkieSwim)
+mpLogObj(coac)
+mpLogObj(coac2)
 mpLogObj(foxJump)
 
 
@@ -387,9 +400,12 @@ mpLogObj(astra)
 //partial body
 
 mpLogObj(ervioWave)
+mpLogObj(gotSticks)
 
 //slight bonus
 
+mpLogObj(glacialPixel, 'normal-logs');
+mpLogObj(miliCombined, 'normal-logs');
 
 start();
 
