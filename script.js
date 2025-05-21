@@ -246,7 +246,10 @@ function mpLogObj(object, container) {
     let classTitle = title.split(" ")[0] + randomNumber;
     object.classTitle = classTitle;
     //console.log(classTitle)
-    let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} </strong> <br> <i> for ${object.rexName} </i> <br>`
+    let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} </strong> <br>`
+    if (object.rexName != 'no' && object.rexName != undefined) {
+      newLog += ` <i> for ${object.rexName} </i> <br>`
+    }
     if (videolink != 'no' && videolink != undefined) {
       newLog +=` <a href="${videolink}"> Video Link</a>  </div> <br>`
     }
