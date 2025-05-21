@@ -403,6 +403,7 @@ mpLogObj(foxJump)
 mpLogObj(flowerCrown)
 mpLogObj(starburst)
 mpLogObj(astra)
+mpLogObj(headbang)
 
 
 //partial body
