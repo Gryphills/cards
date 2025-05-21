@@ -253,6 +253,7 @@ const headbang = {
   sectionLog: [
     ['fr1-9', 'halfBody']
 ]
+}
 
 //
 
