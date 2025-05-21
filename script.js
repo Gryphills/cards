@@ -23,8 +23,8 @@ const bonusesObject = {
   companion  : [1, "(Static) Companion"],
   companionAnim  : [2, "Animated Companion"],*/
 
-  bgSimple  : [4, "Simple Animated BG (stacks)", 'none'],
-  bgComplex  : [10, "Complex Animated BG (stacks)", 'none'],
+  bgSimple  : [4, "Simple Animated BG (stacks w other bg bonus)", 'none'],
+  bgComplex  : [10, "Complex Animated BG (stacks w other bg bonus)", 'none'],
   tinyFlair: [5, "Small Animated Flair (ONLY applies to regular art cards)", 'none'],
   
 
