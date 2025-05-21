@@ -16,7 +16,6 @@ const ervioWave = {
   sectionLog: [
     ['Overall Bonuses', 'abstract', 'staticBody 3', 'staticFlat 3'],
     ['1-15', 'partialBody', 'animationPrinciplesp']
-    //['15-28', 'partialBody', 'animationPrinciplesp']
   ],
   video: 'https://syncsketch.com/sketch/PlOqRA01T0j7/#/34614850/36053050',
   gif: `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrsz8q-b79b9672-b81e-45d7-8f8a-0e98a36a3e48.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpyc3o4cS1iNzliOTY3Mi1iODFlLTQ1ZDctOGY4YS0wZTk4YTM2YTNlNDguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7tqr8yLDQiI62a3I9l1zvOVxUU_I1cdq0RINS6-niXI`,
@@ -159,7 +158,7 @@ const coac = {
   [ '95-101', 'fullBody', 'animationPrinciplesf', 'shadingf' ],
   [ '107-113',  'fullBody',  'animationPrinciplesf', 'shadingf',  'magic' ],
   ['113-121',    'halfBody',    'animationPrinciplesh',    'shadingh',    'magic',]],
-  video: "https://syncsketch.com/sketch/q7NjD2M3lzcK/#/34615929/36054186",
+  video: "https://syncsketch.com/sketch/WvA1XEVwyLPk/",
   rexName: 'Evernia',
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrtl0o-de0640f2-432e-4e7e-a142-a871b6fa495e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpydGwwby1kZTA2NDBmMi00MzJlLTRlN2UtYTE0Mi1hODcxYjZmYTQ5NWUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0VWnsWb10_aGSOu95VO4fRC9q0FbocsrgtESSU5mzz4',
   thumbnail: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/66d32d06-14be-4636-b25f-95141f65a139/dhbf9qs-5e656881-b711-49bf-96ef-bfdc35bc2de4.jpg/v1/fill/w_1192,h_670,q_70,strp/the_stag___animation_by_gryphonillustrations_dhbf9qs-pre.jpg"
@@ -172,7 +171,7 @@ const coac2 = {
   [ '135-145',    'fullBody',    'animationPrinciplesf',    'shadingf',    'magic' ],
   [ '145-161',    'fullBody',    'animationPrinciplesf',    'shadingf',    'magic' ],
   [ '161-179', 'fullBody', 'animationPrinciplesf', 'shadingf' ] ],
-  video: 'https://syncsketch.com/sketch/q7NjD2M3lzcK/#/34615929/36054186',
+  video: 'https://syncsketch.com/sketch/WvA1XEVwyLPk/',
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrtldg-546fce73-5100-4bbb-8263-9b5341e5af1b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpydGxkZy01NDZmY2U3My01MTAwLTRiYmItODI2My05YjUzNDFlNWFmMWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.WjXryYxeyu6WxATgOTQExR_WcGohQTsewk8yj02qN3k',
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djrtj8c-dc2e568f-ceda-45f4-886d-8fbae915f5ef.png/v1/fill/w_1192,h_670,q_70,strp/shadeddd_0169_by_gryphonillustrations_djrtj8c-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanJ0ajhjLWRjMmU1NjhmLWNlZGEtNDVmNC04ODZkLThmYmFlOTE1ZjVlZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.QfoItp6rVmZSqG2u5-GDfwyywRQXOtMW-O51jXk8pVI',
   rexName: 'Evernia'
@@ -183,6 +182,7 @@ const coac2 = {
 const gotSticks = {
   title: 'Got Sticks?',
   rexName: 'Kirt',
+  video: 'https://syncsketch.com/sketch/OTUzM2U0YWQ4/',
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d5874dce-fbf8-4a24-9ac6-7ff8037c25dc/dheyhn7-865669fc-859e-43a7-91bc-0ab5d9f36a74.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q1ODc0ZGNlLWZiZjgtNGEyNC05YWM2LTdmZjgwMzdjMjVkY1wvZGhleWhuNy04NjU2NjlmYy04NTllLTQzYTctOTFiYy0wYWI1ZDlmMzZhNzQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jtjP91KXoGaPz9WLmH7yN8kkbU6BxTii7C8kFLlh8oM',
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d5874dce-fbf8-4a24-9ac6-7ff8037c25dc/dheyhn7-865669fc-859e-43a7-91bc-0ab5d9f36a74.gif/v1/fill/w_250,h_250,q_85,strp/got_sticks__by_babykitten123_dheyhn7-250t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2Q1ODc0ZGNlLWZiZjgtNGEyNC05YWM2LTdmZjgwMzdjMjVkY1wvZGhleWhuNy04NjU2NjlmYy04NTllLTQzYTctOTFiYy0wYWI1ZDlmMzZhNzQuZ2lmIiwid2lkdGgiOiI8PTEwODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.H5zjAvmstvYvAFuc3fVZRZNcDtPJX4xExaY16nqxZbU',
   sectionLog: [
@@ -216,6 +216,7 @@ const sharkSave = {
 
 const glacialPixel = {
   title: 'Pixel Diablo',
+  video: 'no',
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsh5om-1e3f0191-0184-4390-90e1-2adf8d9bfc21.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzaDVvbS0xZTNmMDE5MS0wMTg0LTQzOTAtOTBlMS0yYWRmOGQ5YmZjMjEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hHbjPJ04MWPaqjSM2a0VJfxU-3Jr6doYUf57rH7OdLA',
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsh5om-1e3f0191-0184-4390-90e1-2adf8d9bfc21.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzaDVvbS0xZTNmMDE5MS0wMTg0LTQzOTAtOTBlMS0yYWRmOGQ5YmZjMjEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hHbjPJ04MWPaqjSM2a0VJfxU-3Jr6doYUf57rH7OdLA',
   rexName: 'Diablo',
@@ -228,10 +229,35 @@ const miliCombined = {
   title: 'Combined Transform example',
   gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsqqoq-3b7b92f2-8674-45f4-89ab-31e6cb33f1c1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzcXFvcS0zYjdiOTJmMi04Njc0LTQ1ZjQtODlhYi0zMWU2Y2IzM2YxYzEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xWk5BgxtqD3K1BRigzMyYZEDqMfEpD98YAtMzfdcuLU',
   thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsqqt0-9ecf68f0-e9c5-448e-9ad4-fbde0215e8d5.png/v1/fit/w_599,h_599,q_70,strp/screenshot_2025_05_20_172403_by_gryphonillustrations_djsqqt0-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTk5IiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanNxcXQwLTllY2Y2OGYwLWU5YzUtNDQ4ZS05YWQ0LWZiZGUwMjE1ZThkNS5wbmciLCJ3aWR0aCI6Ijw9NTk5In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.OYEscGAtO3m1GaoLDKrRGGzGK2RGeRZJlyElL1yWG48',
-  video: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsqqoq-3b7b92f2-8674-45f4-89ab-31e6cb33f1c1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzcXFvcS0zYjdiOTJmMi04Njc0LTQ1ZjQtODlhYi0zMWU2Y2IzM2YxYzEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xWk5BgxtqD3K1BRigzMyYZEDqMfEpD98YAtMzfdcuLU',
+  video: 'no',
   sectionLog: [
     ['Normal MP Log: <i>(sections that are moving all together do not count as fully animated)</i>', 'normalBody 7', 'normalFlat 7', 'tinyFlair', 'abstract']
   ]
 }
+
+const panningBg = {
+  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/dha75pp-c2823db2-1495-4d01-bf66-e2d81adabad0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGhhNzVwcC1jMjgyM2RiMi0xNDk1LTRkMDEtYmY2Ni1lMmQ4MWFkYWJhZDAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lw_FcmUwFrTO7W0fhA_P3CNZqwxH2Kev3RqLZbokSjk',
+  title: 'Panning BG',
+  gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsr1ia-a978bba8-cdad-476c-ac6b-3999246c7ea2.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzcjFpYS1hOTc4YmJhOC1jZGFkLTQ3NmMtYWM2Yi0zOTk5MjQ2YzdlYTIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HM-8gMLEDICJL4Fn6k27rJy9-N2tK81ZXtm-8xYBEWk',
+  video: 'no',
+  sectionLog: [
+    ['Normal MP Log:', 'normalBody 7', 'normalShading 7', 'pAndE', 'bgSimple']
+  ]
+}
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
