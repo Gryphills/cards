@@ -1,3 +1,5 @@
+//todo: make static bonuses grb the number & apply that as bonus
+//add a Note function
 const bonusesObject = {
 
   partialBody : [ 2, "Partial Body (1-2 sections)" , 'none'],
@@ -244,7 +246,10 @@ function mpLogObj(object, container) {
     let classTitle = title.split(" ")[0] + randomNumber;
     object.classTitle = classTitle;
     //console.log(classTitle)
-    let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} </strong> <br> <i> for ${object.rexName} </i> <br> <a href="${videolink}"> Video Link</a>  </div> <br>`
+    let newLog = `<br> <div class="mpLog"> <div class="titlestuff"> <strong> ${title} </strong> <br> <i> for ${object.rexName} </i> <br>`
+    if (videolink != 'no' && videolink != undefined) {
+      newLog +=` <a href="${videolink}"> Video Link</a>  </div> <br>`
+    }
     newLog += `<div class="image" id="image-${classTitle}"> <img src="${thumbnail}" height="150px"> </div> <br> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div>`
     newLog += `<div class="cardcontainer" id="cardinfo-${classTitle}" style="display:none"> `
 
@@ -390,6 +395,7 @@ mpLogObj(coac)
 mpLogObj(coac2)
 mpLogObj(foxJump)
 
+//let logContainer = document.getElementById("all-logs");
 
 //mid body
 mpLogObj(flowerCrown)
@@ -406,6 +412,7 @@ mpLogObj(gotSticks)
 
 mpLogObj(glacialPixel, 'normal-logs');
 mpLogObj(miliCombined, 'normal-logs');
+mpLogObj(panningBg, 'normal-logs')
 
 start();
 
