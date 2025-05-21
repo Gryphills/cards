@@ -6,12 +6,12 @@ const bonusesObject = {
   halfBody  : [ 7, "Half Body (3-5 sections)" , 'none'],
   fullBody  : [14, "Full Body (6-7 sections)", 'none'],
 
-  animationPrinciples  : [2, "Animation Principles", 'multiplied'],
+  animationPrinciples  : [1, "Animation Principles", 'multiplied'],
   offsetDetails  : [0, "Offset Details", 'multiplied'],
   trad3: [4, "3 or more hand-drawn frames BETWEEN keys", 'multiplied'],
 
   shading  : [5, "Shaded", 'flat'],
-  traditional  : [4, "Traditional Bonus (keys + at least 1 inbetween are drawn)", 'multiplied'],
+  traditional  : [3, "Traditional Bonus (keys + at least 1 inbetween are drawn)", 'multiplied'],
 
   magic  : [4, "Magic", 'none'],
   jewellery  : [2, "Jewellery", 'none'],
