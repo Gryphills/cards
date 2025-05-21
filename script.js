@@ -250,9 +250,9 @@ function mpLogObj(object, container) {
       newLog += ` <i> for ${object.rexName} </i> <br>`
     }
     if (videolink != 'no' && videolink != undefined) {
-      newLog +=` <a href="${videolink}"> Video Link</a>  </div> <br>`
+      newLog +=` <a href="${videolink}"> Video Link</a>  `
     }
-    newLog += `<div class="image" id="image-${classTitle}"> <img src="${thumbnail}" height="150px"> </div> <br> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div>`
+    newLog += `</div> <br> <div class="image" id="image-${classTitle}"> <img src="${thumbnail}" height="150px"> </div> <br> <div id="button-${classTitle}"> <i>(click to show/hide card details)</i></div>`
     newLog += `<div class="cardcontainer" id="cardinfo-${classTitle}" style="display:none"> `
 
     for (let i=0; i<sectionsArray.length; i++) {
