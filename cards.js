@@ -245,6 +245,15 @@ const panningBg = {
   ]
 }
 
+const headbang = {
+  thumbnail: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsr7m8-9ad8cc39-9aa7-474c-8ef7-440f0d63ac24.gif/v1/fit/w_150,h_150,q_85,strp/headbang_by_gryphonillustrations_djsr7m8-150.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTQwIiwicGF0aCI6IlwvZlwvNjZkMzJkMDYtMTRiZS00NjM2LWIyNWYtOTUxNDFmNjVhMTM5XC9kanNyN204LTlhZDhjYzM5LTlhYTctNDc0Yy04ZWY3LTQ0MGYwZDYzYWMyNC5naWYiLCJ3aWR0aCI6Ijw9OTYwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.8jMEtDByP5mcaGJ1wiGXgQCDXODU7fHFntWoK29JXTA',
+  title: 'Head Bang',
+  gif: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66d32d06-14be-4636-b25f-95141f65a139/djsr7m8-9ad8cc39-9aa7-474c-8ef7-440f0d63ac24.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY2ZDMyZDA2LTE0YmUtNDYzNi1iMjVmLTk1MTQxZjY1YTEzOVwvZGpzcjdtOC05YWQ4Y2MzOS05YWE3LTQ3NGMtOGVmNy00NDBmMGQ2M2FjMjQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-Hk8GfTti3TdeQ83gqB2oSTw5DBX4iQ70NdE2fMgXCs',
+  video: 'no',
+  sectionLog: [
+    ['fr1-9', 'halfBody']
+]
+
 //
 
 
